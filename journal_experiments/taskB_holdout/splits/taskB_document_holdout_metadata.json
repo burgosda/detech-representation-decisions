@@ -1,0 +1,42 @@
+{
+  "protocol": "domain_stratified_document_grouped_holdout",
+  "split_ratio_nominal": {
+    "train": 0.7,
+    "development": 0.15,
+    "test": 0.15
+  },
+  "domain_split_counts": {
+    "mental_health": {
+      "train": 16,
+      "development": 3,
+      "test": 4
+    },
+    "parkinson": {
+      "train": 10,
+      "development": 2,
+      "test": 2
+    }
+  },
+  "candidate_seeds_searched": 50000,
+  "selected_seed": 49281,
+  "selection_score": {
+    "mean_abs_standardized_difference": 0.13179892483371208,
+    "max_abs_standardized_difference": 0.4132673479814209,
+    "development_seen_link_ratio": 0.7387387387387387,
+    "development_seen_concept_ratio": 0.6756756756756757,
+    "development_unseen_links": 29.0,
+    "development_unseen_concepts": 24.0,
+    "test_seen_link_ratio": 0.7633587786259542,
+    "test_seen_concept_ratio": 0.6666666666666666,
+    "test_unseen_links": 31.0,
+    "test_unseen_concepts": 30.0,
+    "seen_link_ratio_difference": 0.024620039887215506,
+    "seen_concept_ratio_difference": 0.009009009009009028,
+    "objective": 0.3529948710202826
+  },
+  "selection_used_model_predictions": false,
+  "selection_used_test_performance": false,
+  "evaluation_unit": "unique_document_mention_concept_link",
+  "mention_input_unit": "unique_document_normalized_mention",
+  "canonical_concepts": 315
+}

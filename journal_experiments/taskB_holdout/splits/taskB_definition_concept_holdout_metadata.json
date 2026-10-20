@@ -1,0 +1,38 @@
+{
+  "selected_seed": 16302,
+  "search_seeds": 50000,
+  "valid_candidates_evaluated": 27817,
+  "target_sizes": {
+    "train": 220,
+    "development": 47,
+    "test": 48
+  },
+  "balance_features": [
+    "domain_mental_health_only",
+    "domain_parkinson_only",
+    "domain_both_domains",
+    "support_1_link",
+    "support_2_links",
+    "support_3_to_4_links",
+    "support_5_to_9_links",
+    "support_10_plus_links",
+    "log_semantic_link_count",
+    "log_document_count",
+    "log_unique_mention_count",
+    "definition_word_count",
+    "mention_word_count_mean"
+  ],
+  "constraints": {
+    "all_domain_memberships_in_each_heldout_split": true,
+    "minimum_high_support_concepts_per_heldout_split": 5,
+    "minimum_multi_occurrence_concepts_per_heldout_split": 15
+  },
+  "objective": 0.11008258066958687,
+  "maximum_absolute_standardized_difference": 0.10225493341174897,
+  "mean_absolute_standardized_difference": 0.031310589031351616,
+  "reference_definition_overlap": {
+    "train_development": 0,
+    "train_test": 0,
+    "development_test": 0
+  }
+}
