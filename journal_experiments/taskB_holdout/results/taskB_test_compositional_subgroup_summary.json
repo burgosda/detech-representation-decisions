@@ -1,0 +1,144 @@
+{
+  "split": "test",
+  "systems": [
+    "MORPHOLOGICAL_OPEN",
+    "COMPOSITIONAL_MINCHAR_5"
+  ],
+  "subgroup_differences": [
+    {
+      "analysis": "familiarity",
+      "subgroup": "EXACT_TRAINING_MATCH",
+      "mention_inputs": 67,
+      "micro_precision_difference": 0.0,
+      "micro_recall_difference": 0.0,
+      "micro_f1_difference": 0.0,
+      "exact_accuracy_difference": 0.0,
+      "mean_jaccard_difference": 0.0
+    },
+    {
+      "analysis": "familiarity",
+      "subgroup": "MORPHOLOGICAL_TRAINING_MATCH",
+      "mention_inputs": 4,
+      "micro_precision_difference": 0.0,
+      "micro_recall_difference": 0.0,
+      "micro_f1_difference": 0.0,
+      "exact_accuracy_difference": 0.0,
+      "mean_jaccard_difference": 0.0
+    },
+    {
+      "analysis": "familiarity",
+      "subgroup": "OPEN_UNSEEN_SURFACE",
+      "mention_inputs": 51,
+      "micro_precision_difference": -0.08057040998217468,
+      "micro_recall_difference": -0.03389830508474578,
+      "micro_f1_difference": -0.05486443381180228,
+      "exact_accuracy_difference": -0.07843137254901955,
+      "mean_jaccard_difference": -0.07189542483660127
+    },
+    {
+      "analysis": "gold_cardinality",
+      "subgroup": "MULTI_LABEL",
+      "mention_inputs": 8,
+      "micro_precision_difference": 0.23232323232323232,
+      "micro_recall_difference": 0.17647058823529413,
+      "micro_f1_difference": 0.20329670329670332,
+      "exact_accuracy_difference": 0.125,
+      "mean_jaccard_difference": 0.16666666666666663
+    },
+    {
+      "analysis": "gold_cardinality",
+      "subgroup": "SINGLE_LABEL",
+      "mention_inputs": 114,
+      "micro_precision_difference": -0.05837870538415002,
+      "micro_recall_difference": -0.04385964912280704,
+      "micro_f1_difference": -0.05118230358504949,
+      "exact_accuracy_difference": -0.04385964912280704,
+      "mean_jaccard_difference": -0.04385964912280704
+    },
+    {
+      "analysis": "mention_length",
+      "subgroup": "MULTIWORD",
+      "mention_inputs": 78,
+      "micro_precision_difference": -0.060698490163184404,
+      "micro_recall_difference": -0.02298850574712652,
+      "micro_f1_difference": -0.04053862508858963,
+      "exact_accuracy_difference": -0.05128205128205121,
+      "mean_jaccard_difference": -0.047008547008547064
+    },
+    {
+      "analysis": "mention_length",
+      "subgroup": "SINGLE_WORD",
+      "mention_inputs": 44,
+      "micro_precision_difference": 0.0,
+      "micro_recall_difference": 0.0,
+      "micro_f1_difference": 0.0,
+      "exact_accuracy_difference": 0.0,
+      "mean_jaccard_difference": 0.0
+    }
+  ],
+  "intervention_outcomes": [
+    {
+      "analysis": "familiarity",
+      "subgroup": "EXACT_TRAINING_MATCH",
+      "mention_inputs": 67,
+      "changed_predictions": 0,
+      "improved": 0,
+      "regressed": 0,
+      "changed_without_exact_gain": 0
+    },
+    {
+      "analysis": "familiarity",
+      "subgroup": "MORPHOLOGICAL_TRAINING_MATCH",
+      "mention_inputs": 4,
+      "changed_predictions": 0,
+      "improved": 0,
+      "regressed": 0,
+      "changed_without_exact_gain": 0
+    },
+    {
+      "analysis": "familiarity",
+      "subgroup": "OPEN_UNSEEN_SURFACE",
+      "mention_inputs": 51,
+      "changed_predictions": 13,
+      "improved": 3,
+      "regressed": 7,
+      "changed_without_exact_gain": 3
+    },
+    {
+      "analysis": "gold_cardinality",
+      "subgroup": "MULTI_LABEL",
+      "mention_inputs": 8,
+      "changed_predictions": 2,
+      "improved": 1,
+      "regressed": 0,
+      "changed_without_exact_gain": 1
+    },
+    {
+      "analysis": "gold_cardinality",
+      "subgroup": "SINGLE_LABEL",
+      "mention_inputs": 114,
+      "changed_predictions": 11,
+      "improved": 2,
+      "regressed": 7,
+      "changed_without_exact_gain": 2
+    },
+    {
+      "analysis": "mention_length",
+      "subgroup": "MULTIWORD",
+      "mention_inputs": 78,
+      "changed_predictions": 13,
+      "improved": 3,
+      "regressed": 7,
+      "changed_without_exact_gain": 3
+    },
+    {
+      "analysis": "mention_length",
+      "subgroup": "SINGLE_WORD",
+      "mention_inputs": 44,
+      "changed_predictions": 0,
+      "improved": 0,
+      "regressed": 0,
+      "changed_without_exact_gain": 0
+    }
+  ]
+}

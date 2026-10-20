@@ -1,0 +1,70 @@
+{
+  "status": "LOCKED_BEFORE_ADDITIONAL_SEED_TRAINING",
+  "important_timing_disclosure": "The seed-42 test result was inspected before training the additional robustness seeds. No model architecture, threshold, collapse parameter, evaluation definition, or seed was selected using the additional test results.",
+  "seeds": [
+    13,
+    21,
+    42,
+    77,
+    101
+  ],
+  "completed_seed": 42,
+  "additional_seeds_to_train": [
+    13,
+    21,
+    77,
+    101
+  ],
+  "neural_training": {
+    "base_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+    "epochs": 5,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "effective_batch_size": 16,
+    "checkpoint_criterion": "development loss",
+    "start_positive_weight": 6.4669974356115505,
+    "end_positive_weight": 6.446241939070491
+  },
+  "candidate_decoding": {
+    "minimum_boundary_probability": 0.05,
+    "maximum_span_tokens": 16,
+    "term_confidence": "sqrt(p_start * p_end)",
+    "collapse_eligibility_floor": 0.5
+  },
+  "locked_neural_policies": {
+    "nested_threshold": 0.97,
+    "nonoverlap_threshold": 0.81
+  },
+  "locked_collapse_policies": {
+    "n_clusters_per_domain": 100,
+    "nested_plus_collapse": {
+      "anchor_policy": "NESTED_HIGH_CONFIDENCE",
+      "alpha": 0.5,
+      "p_keep": 0.97,
+      "p_min": 0.75,
+      "tau": 0.95
+    },
+    "nonoverlap_plus_collapse": {
+      "anchor_policy": "NONOVERLAP_HIGH_CONFIDENCE",
+      "alpha": 0.8,
+      "p_keep": 0.81,
+      "p_min": 0.75,
+      "tau": 0.65
+    }
+  },
+  "evaluation": {
+    "primary_unit": "unique exact case-sensitive document\u2013surface-form pair",
+    "secondary_unit": "unique case-folded whitespace-normalized term type",
+    "domains": [
+      "parkinson",
+      "mental_health"
+    ],
+    "primary_report": "mean and standard deviation across five training seeds, with seed-42 document-bootstrap intervals retained as the prespecified primary-run uncertainty analysis"
+  },
+  "claim_rules": {
+    "postprocessing_claim": "Supported only if the non-overlap advantage remains positive across all or nearly all seeds.",
+    "collapse_claim": "Supported only if collapse improves its matched baseline consistently across seeds. Otherwise report a null or negative result.",
+    "no_additional_test_tuning": true
+  }
+}

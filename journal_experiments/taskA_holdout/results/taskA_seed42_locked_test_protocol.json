@@ -1,0 +1,54 @@
+{
+  "status": "LOCKED_BEFORE_TEST_INFERENCE",
+  "test_data_used_for_parameter_selection": false,
+  "neural_model": {
+    "checkpoint": "${DETECH_ROOT}/journal_experiments/taskA_holdout/models/pubmedbert_boundary_seed42/checkpoint-104",
+    "training_seed": 42,
+    "candidate_minimum_boundary_probability": 0.05,
+    "maximum_span_tokens": 16,
+    "candidate_confidence_formula": "geometric_mean",
+    "candidate_confidence_formula_maximum_error": 3.3306690738754696e-16
+  },
+  "nested_neural_baseline": {
+    "policy": "retain all predicted occurrences including overlaps",
+    "p_term_threshold": 0.97
+  },
+  "nonoverlap_neural_baseline": {
+    "policy": "greedy highest-neural-confidence non-overlap selection",
+    "p_term_threshold": 0.81
+  },
+  "nested_plus_collapse": {
+    "training_reference": "NESTED_HIGH_CONFIDENCE",
+    "collapse_definition": "exp(-assigned-centroid Euclidean distance / training-distance IQR)",
+    "n_clusters_per_domain": 100,
+    "p_keep": 0.97,
+    "alpha": 0.5,
+    "p_min": 0.75,
+    "tau": 0.95,
+    "development_effect": "identical to nested neural baseline; no candidates added"
+  },
+  "nonoverlap_plus_collapse": {
+    "training_reference": "NONOVERLAP_HIGH_CONFIDENCE",
+    "collapse_definition": "exp(-assigned-centroid Euclidean distance / training-distance IQR)",
+    "n_clusters_per_domain": 100,
+    "p_keep": 0.81,
+    "alpha": 0.8,
+    "p_min": 0.75,
+    "tau": 0.65,
+    "development_added_occurrences": 12,
+    "development_exact_gold_additions": 3,
+    "development_selection_score_change": 0.00019909036805387803,
+    "development_permutation_p_one_sided": 0.5454545454545454
+  },
+  "claim_calibration": {
+    "development_conclusion": "No reliable positive collapse contribution was detected.",
+    "test_interpretation": "Test results will estimate generalization of the locked pipelines and will not be used for further tuning.",
+    "inverse_distance_status": "Not part of the confirmatory collapse experiment; any future analysis must be labeled exploratory."
+  },
+  "artifact_fingerprints": {
+    "development_candidate_pool_sha256": "d971151c4c7c94cc4fa3f6cbb641f4491b2ea3b492eac5aa57603d876e48c15c",
+    "selection_json_sha256": "2b83ca22b7d5497ac7bacb3fff8e20fee8bc403407920c459fb0cbb5323d7de3",
+    "permutation_summary_sha256": "7fe37204d5a83122d24b2d38f74edd595fc0da61661872d43dba7362db4c394e",
+    "anchor_metadata_sha256": "6b5cb5dcb608119436c6fad3cf48b3042ebd5ad4fbce03ff251eb7bf66a0ee9d"
+  }
+}

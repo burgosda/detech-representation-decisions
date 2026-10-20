@@ -1,0 +1,7 @@
+split,domain,documents,mention_inputs,gold_links,multi_label_inputs
+development,mental_health,3,59,65,5
+development,parkinson,2,43,46,3
+test,mental_health,4,74,80,5
+test,parkinson,2,48,51,3
+train,mental_health,16,299,335,34
+train,parkinson,10,267,292,20

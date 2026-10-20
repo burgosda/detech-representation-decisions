@@ -1,0 +1,23 @@
+{
+  "seed": 21,
+  "locked_protocol": true,
+  "base_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+  "best_checkpoint": "${DETECH_ROOT}/journal_experiments/taskA_holdout/models/pubmedbert_boundary_seed21/checkpoint-130",
+  "best_model_directory": "${DETECH_ROOT}/journal_experiments/taskA_holdout/models/pubmedbert_boundary_seed21/best_model",
+  "best_development_loss": 0.3001643717288971,
+  "final_loaded_development_metrics": {
+    "development_loss": 0.3001643717288971
+  },
+  "elapsed_minutes": 0.749454923470815,
+  "training_history_path": "${DETECH_ROOT}/journal_experiments/taskA_holdout/results/pubmedbert_boundary_seed21_training_history.csv",
+  "summary_row": {
+    "seed": 21,
+    "best_checkpoint": "${DETECH_ROOT}/journal_experiments/taskA_holdout/models/pubmedbert_boundary_seed21/checkpoint-130",
+    "best_eval_loss": 0.3001643717288971,
+    "final_loaded_development_loss": 0.3001643717288971,
+    "elapsed_minutes": 0.749454923470815,
+    "epochs": 5,
+    "learning_rate": 2e-05,
+    "effective_batch_size": 16
+  }
+}

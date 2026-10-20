@@ -1,0 +1,4 @@
+domain_stratum,development,test,train
+both_domains,9,11,49
+mental_health_only,21,22,94
+parkinson_only,17,15,77

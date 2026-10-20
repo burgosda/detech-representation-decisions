@@ -1,0 +1,5 @@
+anchor_policy,domain,neural_threshold,anchor_candidates,total_eligible_candidates,retained_candidate_ratio,documents,documents_with_anchor,mean_anchors_per_document,unique_mentions,median_p_term,median_word_count,word_count_q95,median_character_length,sufficient_for_K100,anchors_per_cluster_K100
+NESTED_HIGH_CONFIDENCE,mental_health,0.97,26968,74014,0.3643634987975248,249,249,108.30522088353413,19020,0.9899096662993612,4.0,13.0,34.0,True,269.68
+NESTED_HIGH_CONFIDENCE,parkinson,0.97,13499,36904,0.3657869065683937,129,129,104.64341085271317,9334,0.990688368943904,4.0,13.0,34.0,True,134.99
+NONOVERLAP_HIGH_CONFIDENCE,mental_health,0.81,9147,74014,0.12358472721377037,249,249,36.734939759036145,4284,0.9899816370140668,2.0,9.0,14.0,True,91.47
+NONOVERLAP_HIGH_CONFIDENCE,parkinson,0.81,4603,36904,0.12472902666377629,129,129,35.68217054263566,2136,0.9907308761226123,2.0,9.0,14.0,True,46.03

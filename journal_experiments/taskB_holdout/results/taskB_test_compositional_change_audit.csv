@@ -1,0 +1,123 @@
+domain,document_key,num_article,mention,mention_normalized,gold_set,predicted_morph_open_reconstructed_set,predicted_compositional_reconstructed_set,prediction_changed,morph_correct_links,compositional_correct_links,correct_link_difference,morph_exact,compositional_exact,exact_outcome
+mental_health,mental_health::103,103,food,food,food,food,food,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::103,103,gut microbiota,gut microbiota,gut microbiota,gut microbiota,gut microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::103,103,gut microbiota metabolism,gut microbiota metabolism,gut microbiota metabolism,gut microbiota metabolism,gut microbiota | metabolism,True,1,0,-1,True,False,REGRESSED
+mental_health,mental_health::103,103,gut-brain axis,gut-brain axis,gut brain axis,gut brain axis,gut brain axis,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::103,103,mental diseases,mental diseases,mental disease,mental disease,mental disease,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::103,103,mental health,mental health,mental health,mental health,mental health,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,brain,brain,brain,brain,brain,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,gut,gut,gut,gut,gut,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,gut microbiota,gut microbiota,gut microbiota,gut microbiota,gut microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,immune interconnections,immune interconnections,immune system,immune interconnection,immune interconnection,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::210,210,psychiatric disorders,psychiatric disorders,psychiatric disorder,psychiatric disorder,psychiatric disorder,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,psychiatric symptoms and disorders,psychiatric symptoms and disorders,psychiatric disorder | psychiatric symptom,psychiatric symptom and disorder,psychiatric symptom and disorder,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::210,210,treatment,treatment,treatment,treatment,treatment,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::210,210,treatments,treatments,treatment,treatment,treatment,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,adjuvant therapies,adjuvant therapies,adjuvant therapy,adjuvant therapy,adjuvant therapy,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,Alzheimer disease,alzheimer disease,alzheimer s disease,alzheimer disease,disease,True,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,anxiety,anxiety,anxiety,anxiety,anxiety,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,autism spectrum disorder,autism spectrum disorder,autism spectrum disorder,autism spectrum disorder,autism spectrum disorder,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,bacterial components,bacterial components,bacterium,bacterial component,bacterial component,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,behavior,behavior,behavior,behavior,behavior,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,bipolar disorder,bipolar disorder,bipolar disorder,bipolar disorder,bipolar disorder,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,brain,brain,brain,brain,brain,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,central nervous system,central nervous system,central nervous system,central nervous system,central nervous system,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,clinical evidence,clinical evidence,clinical evidence,clinical evidence,clinical evidence,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,dementia,dementia,dementia,dementia,dementia,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,fecal microbiota transplantation,fecal microbiota transplantation,fecal microbiota transplantation,fecal microbiota transplantation,microbiota,True,1,0,-1,True,False,REGRESSED
+mental_health,mental_health::461,461,gastrointestinal tract,gastrointestinal tract,gastrointestinal tract,gastrointestinal tract,gastrointestinal tract,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,gut microbiota,gut microbiota,gut microbiota,gut microbiota,gut microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,host,host,host,host,host,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,immune system,immune system,immune system,immune system,immune system,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,interaction,interaction,interaction,interaction,interaction,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,intestinal ecosystem,intestinal ecosystem,intestinal ecosystem,intestinal ecosystem,intestinal ecosystem,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,intestinal epithelium,intestinal epithelium,intestinal epithelium,intestinal epithelium,intestinal epithelium,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,intestinal metabolites,intestinal metabolites,gut metabolite,intestinal metabolite,intestinal metabolite,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,intestinal microbiota,intestinal microbiota,gut microbiota,gut microbiota,gut microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,major depressive disorder,major depressive disorder,major depressive disorder,major depressive disorder,major depressive disorder,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,mental health,mental health,mental health,mental health,mental health,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,microbial cells,microbial cells,microbial cell,microbial cell,microbial cell,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,microbial origin,microbial origin,microorganism,microbial origin,microbial origin,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,microbiota,microbiota,microbiota,microbiota,microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,microbiota-gut-brain axis,microbiota-gut-brain axis,microbiota gut brain axis,microbiota gut brain axis,microbiota gut brain axis,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,mood,mood,mood,mood,mood,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,neurological and psychiatric disorders,neurological and psychiatric disorders,neurological disorder | psychiatric disorder,neurological and psychiatric disorder,neurological and psychiatric disorder,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,neuropsychiatric disorders,neuropsychiatric disorders,neuropsychiatric disorder,neuropsychiatric disorder,neuropsychiatric disorder,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,Parkinson's disease,parkinson's disease,parkinson s disease,parkinson s disease,parkinson s disease,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,pathways,pathways,pathway,pathway,pathway,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,physiological change,physiological change,physiological change,physiological change,physiological change,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,prebiotics,prebiotics,prebiotic,prebiotic,prebiotic,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,probiotics,probiotics,probiotic,probiotic,probiotic,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,schizophrenia,schizophrenia,schizophrenia,schizophrenia,schizophrenia,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,short-chain fatty acids,short-chain fatty acids,short chain fatty acid,short chain fatty acid,short chain fatty acid,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::461,461,signaling mechanism,signaling mechanism,signaling mechanism,signaling mechanism,mechanism,True,1,0,-1,True,False,REGRESSED
+mental_health,mental_health::461,461,small and large intestine,small and large intestine,large intestine | small intestine,small and large intestine,small and large intestine,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::461,461,tryptophan metabolites,tryptophan metabolites,tryptophan metabolite,tryptophan metabolite,tryptophan metabolite,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,anxiety,anxiety,anxiety,anxiety,anxiety,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,body sites,body sites,body site,body site,body site,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,brain,brain,brain,brain,brain,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,depression,depression,depression,depression,depression,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,environmental pollutants,environmental pollutants,environmental pollutant,environmental pollutant,environmental pollutant,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,gut,gut,gut,gut,gut,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,gut microbiota,gut microbiota,gut microbiota,gut microbiota,gut microbiota,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,gut-brain axis,gut-brain axis,gut brain axis,gut brain axis,gut brain axis,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,health and disease issues,health and disease issues,disease | health,health and disease issue,disease | health,True,0,2,2,False,True,IMPROVED
+mental_health,mental_health::611,611,human,human,human,human,human,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,human studies,human studies,human study,human study,human study,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,mental health,mental health,mental health,mental health,mental health,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,microbes,microbes,microorganism,microorganism,microorganism,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,microbes-host ecosystem,microbes-host ecosystem,ecosystem | host | microorganism,microbe host ecosystem,microbe host ecosystem,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::611,611,microbiome,microbiome,microbiome,microbiome,microbiome,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,obese westerners,obese westerners,obesity,obese westerner,obese westerner,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::611,611,probiotic applications,probiotic applications,probiotic,probiotic application,probiotic,True,0,1,1,False,True,IMPROVED
+mental_health,mental_health::611,611,therapeutic potential,therapeutic potential,therapy,therapeutic potential,therapeutic potential,False,0,0,0,False,False,BOTH_INCORRECT
+mental_health,mental_health::611,611,therapies,therapies,therapy,therapy,therapy,False,1,1,0,True,True,BOTH_CORRECT
+mental_health,mental_health::611,611,vagus nerve,vagus nerve,vagus nerve,vagus nerve,vagus nerve,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,alterations,alterations,alteration,alteration,alteration,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,Alzheimer's disease,alzheimer's disease,alzheimer s disease,alzheimer s disease,alzheimer s disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,conditions,conditions,medical condition,condition,condition,False,0,0,0,False,False,BOTH_INCORRECT
+parkinson,parkinson::151,151,diseases,diseases,disease,disease,disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,effect,effect,effect,effect,effect,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,epilepsy,epilepsy,epilepsy,epilepsy,epilepsy,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,gut microbiome,gut microbiome,gut microbiome,gut microbiome,gut microbiome,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,homan body,homan body,human,homan body,homan body,False,0,0,0,False,False,BOTH_INCORRECT
+parkinson,parkinson::151,151,human body,human body,body,human body,human,True,0,0,0,False,False,BOTH_INCORRECT
+parkinson,parkinson::151,151,human health,human health,health | human,health | human,health | human,False,2,2,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,interactions,interactions,interaction,interaction,interaction,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,mediators,mediators,mediator,mediator,mediator,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,microbes,microbes,microorganism,microorganism,microorganism,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,microbiome-mediated contributions,microbiome-mediated contributions,microbiome,microbiome mediated contribution,microbiome,True,0,1,1,False,True,IMPROVED
+parkinson,parkinson::151,151,neurodevelopmental disorders,neurodevelopmental disorders,neurodevelopmental disorder,neurodevelopmental disorder,neurodevelopmental disorder,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,neurological conditions,neurological conditions,neurological condition,neurological condition,neurological condition,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,neurological diseases,neurological diseases,neurological disease,neurological disease,neurological disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,neurological health,neurological health,neurological health,neurological health,neurological health,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,neurological health and disease,neurological health and disease,neurological disease | neurological health,neurological health and disease,disease | neurological health,True,0,1,1,False,False,BOTH_INCORRECT
+parkinson,parkinson::151,151,Parkinson's disease,parkinson's disease,parkinson s disease,parkinson s disease,parkinson s disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,therapeutic benefits,therapeutic benefits,therapeutic benefit,therapeutic benefit,therapeutic benefit,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::151,151,traumatic injury,traumatic injury,traumatic injury,traumatic injury,traumatic injury,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,afferents,afferents,afferent,afferent,afferent,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,alpha-synuclein,alpha-synuclein,alpha synuclein,alpha synuclein,alpha synuclein,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,axis,axis,axis,axis,axis,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,benefit,benefit,benefit,benefit,benefit,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,biology,biology,biology,biology,biology,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,brain,brain,brain,brain,brain,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,central nervous system,central nervous system,central nervous system,central nervous system,central nervous system,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,digestion,digestion,digestion,digestion,digestion,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,disease development and progression,disease development and progression,disease,disease,disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,gut,gut,gut,gut,gut,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,gut microbiome,gut microbiome,gut microbiome,gut microbiome,gut microbiome,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,gut-microbiome-brain axis,gut-microbiome-brain axis,gut microbiome brain axis,gut microbiome brain axis,brain | gut microbiome,True,1,0,-1,True,False,REGRESSED
+parkinson,parkinson::275,275,gut-related factors,gut-related factors,gut,gut related factor,gut related factor,False,0,0,0,False,False,BOTH_INCORRECT
+parkinson,parkinson::275,275,heart rate,heart rate,heart rate,heart rate,heart rate,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,immune response,immune response,immune response,immune response,immune response,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,microbiome,microbiome,microbiome,microbiome,microbiome,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,microbiota metabolites,microbiota metabolites,microbiota metabolite,microbiota metabolite,microbiota,True,1,0,-1,True,False,REGRESSED
+parkinson,parkinson::275,275,mood,mood,mood,mood,mood,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,parasympathetic nervous system,parasympathetic nervous system,parasympathetic nervous system,parasympathetic nervous system,nervous system,True,1,0,-1,True,False,REGRESSED
+parkinson,parkinson::275,275,Parkinson's disease,parkinson's disease,parkinson s disease,parkinson s disease,parkinson s disease,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,patient,patient,patient,patient,patient,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,preclinical and clinical studies,preclinical and clinical studies,clinical study | preclinical study,preclinical and clinical study,preclinical and clinical study,False,0,0,0,False,False,BOTH_INCORRECT
+parkinson,parkinson::275,275,therapeutic strategies,therapeutic strategies,therapeutic strategy,therapeutic strategy,therapeutic strategy,False,1,1,0,True,True,BOTH_CORRECT
+parkinson,parkinson::275,275,treatment responses,treatment responses,treatment response,treatment response,treatment,True,1,0,-1,True,False,REGRESSED
+parkinson,parkinson::275,275,vagus nerve,vagus nerve,vagus nerve,vagus nerve,vagus nerve,False,1,1,0,True,True,BOTH_CORRECT

@@ -1,0 +1,4 @@
+split,concepts,mean_gold_links,median_gold_links,mean_gold_documents,median_gold_documents,mean_evidence_rows,median_evidence_rows,maximum_evidence_rows,mean_evidence_documents,median_evidence_documents,maximum_evidence_documents
+development,47,2.7,1.0,2.36,1.0,3.94,1.0,81,2.36,1.0,30
+test,48,2.73,1.0,2.27,1.0,3.6,1.0,26,2.27,1.0,14
+train,220,2.78,1.0,2.37,1.0,4.74,1.0,82,2.37,1.0,18

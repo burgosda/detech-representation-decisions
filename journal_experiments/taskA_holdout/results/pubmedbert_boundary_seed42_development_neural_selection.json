@@ -1,0 +1,14 @@
+{
+  "NESTED": {
+    "p_term_threshold": 0.99,
+    "avg_micro_f1": 0.18408152332749364,
+    "avg_type_f1": 0.10973481604471963,
+    "selection_score": 0.14690816968610665
+  },
+  "NONOVERLAP": {
+    "p_term_threshold": 0.78,
+    "avg_micro_f1": 0.464642471606027,
+    "avg_type_f1": 0.4325120258433661,
+    "selection_score": 0.44857724872469656
+  }
+}

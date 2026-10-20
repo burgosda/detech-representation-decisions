@@ -1,0 +1,26 @@
+{
+  "identical_prompt_outputs_canonicalized": true,
+  "canonicalization_rule": "Earliest randomized API response for each exact prompt hash.",
+  "development_generation_input": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_development_ISO_generations_prompt_deduplicated.csv",
+  "test_generation_input": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_test_ISO_generations_prompt_deduplicated.csv",
+  "development_concepts": 47,
+  "test_concepts": 48,
+  "test_generation_completed_before_reference_loading": true,
+  "bleu_library": "sacrebleu",
+  "rouge_library": "rouge-score",
+  "rouge_types": [
+    "rouge1",
+    "rouge2",
+    "rougeL"
+  ],
+  "rouge_use_stemmer": true,
+  "semantic_metric": "BERTScore",
+  "semantic_encoder": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "semantic_encoder_layers": 12,
+  "bertscore_idf": false,
+  "bertscore_rescaled_with_baseline": false,
+  "development_detailed_output": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_development_ISO_metrics_with_ROUGE.csv",
+  "development_summary_output": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_development_ISO_summary_with_ROUGE.csv",
+  "test_detailed_output": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_test_ISO_detailed_metrics.csv",
+  "test_summary_output": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_test_ISO_condition_metrics.csv"
+}

@@ -1,0 +1,26 @@
+{
+  "split_type": "doi_grouped_document_level_holdout",
+  "proportions": {
+    "train": 0.7,
+    "development": 0.15,
+    "test": 0.15
+  },
+  "candidate_seeds_evaluated": 10000,
+  "selected_seed": 4857,
+  "combined_balance_objective": 0.22444340711193922,
+  "largest_absolute_standardized_difference": 0.15458960576475528,
+  "grouping_variable": "normalized DOI",
+  "n_documents": 540,
+  "n_groups": 534,
+  "repeated_doi_groups": 6,
+  "doi_groups_crossing_splits": 0,
+  "balance_features": [
+    "gold_term_count",
+    "multiword_ratio",
+    "mean_term_words",
+    "max_term_words",
+    "nested_pair_count",
+    "has_nested_terms"
+  ],
+  "unmatched_gold_pairs_retained_for_evaluation": 27
+}

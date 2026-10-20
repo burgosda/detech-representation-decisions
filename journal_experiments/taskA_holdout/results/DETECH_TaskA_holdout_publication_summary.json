@@ -1,0 +1,143 @@
+{
+  "study": "DETECH Task A holdout ablation",
+  "seeds": [
+    13,
+    21,
+    42,
+    77,
+    101
+  ],
+  "primary_variants": {
+    "NESTED_NEURAL": {
+      "avg_micro_f1": {
+        "mean": 0.3275307435910329,
+        "sd": 0.004338394773796622,
+        "minimum": 0.3206182624745545,
+        "maximum": 0.3323700701729469
+      },
+      "avg_type_f1": {
+        "mean": 0.23222749712634036,
+        "sd": 0.0030043219340222783,
+        "minimum": 0.2280035794043518,
+        "maximum": 0.2364589624949097
+      },
+      "selection_score": {
+        "mean": 0.2798791203586867,
+        "sd": 0.003644942861678178,
+        "minimum": 0.2743109209394532,
+        "maximum": 0.2844145163339283
+      }
+    },
+    "NONOVERLAP_NEURAL": {
+      "avg_micro_f1": {
+        "mean": 0.5592225779729555,
+        "sd": 0.013405735722579689,
+        "minimum": 0.5382033065002162,
+        "maximum": 0.5716585138890635
+      },
+      "avg_type_f1": {
+        "mean": 0.507640643641752,
+        "sd": 0.011025747157542308,
+        "minimum": 0.4896903096903097,
+        "maximum": 0.516706716655763
+      },
+      "selection_score": {
+        "mean": 0.5334316108073537,
+        "sd": 0.012196946534667406,
+        "minimum": 0.5139468080952629,
+        "maximum": 0.5441826152724132
+      }
+    },
+    "NESTED_PLUS_COLLAPSE": {
+      "avg_micro_f1": {
+        "mean": 0.3275307435910329,
+        "sd": 0.004338394773796622,
+        "minimum": 0.3206182624745545,
+        "maximum": 0.3323700701729469
+      },
+      "avg_type_f1": {
+        "mean": 0.23222749712634036,
+        "sd": 0.0030043219340222783,
+        "minimum": 0.2280035794043518,
+        "maximum": 0.2364589624949097
+      },
+      "selection_score": {
+        "mean": 0.2798791203586867,
+        "sd": 0.003644942861678178,
+        "minimum": 0.2743109209394532,
+        "maximum": 0.2844145163339283
+      }
+    },
+    "NONOVERLAP_PLUS_COLLAPSE": {
+      "avg_micro_f1": {
+        "mean": 0.5592809365426415,
+        "sd": 0.012979692155864813,
+        "minimum": 0.5382644554886116,
+        "maximum": 0.5710050148244812
+      },
+      "avg_type_f1": {
+        "mean": 0.5078448810545566,
+        "sd": 0.01082840366050645,
+        "minimum": 0.4895772101765149,
+        "maximum": 0.5165308537052775
+      },
+      "selection_score": {
+        "mean": 0.5335629087985991,
+        "sd": 0.011863217497228696,
+        "minimum": 0.5139208328325633,
+        "maximum": 0.5437679342648793
+      }
+    }
+  },
+  "calibrated_findings": {
+    "nonoverlap_postprocessing": {
+      "finding": "Large and consistent improvement over nested extraction.",
+      "mean_avg_micro_f1_difference": 0.231692,
+      "mean_avg_type_f1_difference": 0.275413,
+      "mean_selection_score_difference": 0.253552,
+      "all_five_seeds_positive": true,
+      "matched_thresholds_also_positive": true
+    },
+    "nested_collapse": {
+      "finding": "No operational effect under the locked decision rule.",
+      "effect": 0.0,
+      "identical_to_neural_baseline_in_all_seeds": true
+    },
+    "nonoverlap_collapse": {
+      "finding": "No reliable improvement across neural seeds.",
+      "mean_avg_micro_f1_difference": 5.8e-05,
+      "mean_avg_type_f1_difference": 0.000204,
+      "mean_selection_score_difference": 0.000131,
+      "selection_score_ci_95": [
+        -0.001294,
+        0.001556
+      ],
+      "exact_sign_flip_p": 0.875,
+      "added_candidates": 63,
+      "correct_additions": 21,
+      "addition_precision": 0.3333333333333333
+    },
+    "collapse_discrimination": {
+      "finding": "Centroid proximity was inversely associated with official gold compatibility on development.",
+      "tested_K": [
+        50,
+        100,
+        200
+      ],
+      "all_auc_below_chance": true,
+      "interpretation": "Dense embedding regions were dominated by generic or combinatorial candidate spans rather than valid terms."
+    },
+    "nestedness_tradeoff": {
+      "nested_neural_recall": 0.8144,
+      "nonoverlap_neural_recall": 0.673,
+      "interpretation": "Non-overlap filtering improves precision substantially but sacrifices legitimate nested gold terms."
+    }
+  },
+  "reporting_constraints": [
+    "Describe nested and non-overlap primary systems as development-optimized pipeline variants because they use different neural thresholds.",
+    "Use the matched-threshold analysis as post hoc sensitivity evidence that overlap suppression itself is beneficial.",
+    "Do not claim that the tested collapse signal improved Task A.",
+    "Do not reinterpret inverse centroid distance as collapse; that would constitute a new exploratory mechanism.",
+    "Use Cell 32 values as seed-42 point estimates and the document bootstrap only for uncertainty."
+  ]
+}

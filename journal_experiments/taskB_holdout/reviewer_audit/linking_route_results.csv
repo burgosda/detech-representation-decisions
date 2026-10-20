@@ -1,0 +1,7 @@
+route,system,mention_inputs,TP,FP,FN,micro_F1,exact_set_matches
+exact_training_lookup,decomposition,67,68,0,0,1.0,67
+exact_training_lookup,morphological_open,67,68,0,0,1.0,67
+morphological_training_lookup,decomposition,4,4,0,0,1.0,4
+morphological_training_lookup,morphological_open,4,4,0,0,1.0,4
+open_normalized_label,decomposition,51,29,26,30,0.5087719298245614,27
+open_normalized_label,morphological_open,51,31,20,28,0.5636363636363636,31

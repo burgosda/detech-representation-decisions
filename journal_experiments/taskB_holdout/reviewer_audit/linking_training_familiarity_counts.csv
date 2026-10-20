@@ -1,0 +1,6 @@
+route,gold_familiarity,mention_inputs,seen_gold_links,unseen_gold_links
+exact_training_lookup,all_gold_concepts_seen,67,68,0
+morphological_training_lookup,all_gold_concepts_seen,4,4,0
+open_normalized_label,all_gold_concepts_seen,21,25,0
+open_normalized_label,all_gold_concepts_unseen,28,0,29
+open_normalized_label,mixed_seen_and_unseen,2,3,2

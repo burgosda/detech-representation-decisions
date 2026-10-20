@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-20T00:29:35.173263+00:00",
+  "purpose": "Post hoc Task B reviewer audit",
+  "original_notebook": "Information_DefinitionGeneration.ipynb",
+  "sacrebleu_version_in_audit_runtime": "2.6.0",
+  "input_paths": {
+    "gold_links": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_authoritative_gold_links_with_split.csv",
+    "mention_inputs": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_authoritative_mention_inputs_with_split.csv",
+    "link_predictions": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_test_compositional_predictions_locked.csv",
+    "link_change_audit": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_test_compositional_change_audit.csv",
+    "concept_split": "${DETECH_ROOT}/journal_experiments/taskB_holdout/splits/taskB_definition_concept_holdout_70_15_15.csv",
+    "concept_evidence": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_concept_evidence_with_collapse_K100_complete.csv",
+    "development_raw_generations": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_development_ISO_generations_all_conditions.csv",
+    "test_raw_generations": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_test_ISO_generations_locked.csv",
+    "development_canonical_generations": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_development_ISO_generations_prompt_deduplicated.csv",
+    "test_canonical_generations": "${DETECH_ROOT}/journal_experiments/taskB_holdout/predictions/taskB_definition_test_ISO_generations_prompt_deduplicated.csv",
+    "test_definition_metrics": "${DETECH_ROOT}/journal_experiments/taskB_holdout/results/taskB_definition_test_ISO_detailed_metrics.csv"
+  },
+  "interpretation_limits": [
+    "All analyses use the original locked splits and saved outputs.",
+    "Leave-one-out checks do not retrain or retune models.",
+    "Open canonical-label agreement does not independently verify concept identity.",
+    "Automatic definition metrics do not establish biomedical factual accuracy.",
+    "No expert definition validation was performed in this audit."
+  ]
+}

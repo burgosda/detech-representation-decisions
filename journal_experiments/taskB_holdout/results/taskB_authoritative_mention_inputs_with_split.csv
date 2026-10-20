@@ -1,0 +1,791 @@
+domain,num_article,doi_normalized,document_key,mention_normalized,mention,gold_concept_count,gold_concepts,gold_concepts_normalized,is_multilabel,mention_word_count,split,mention_familiarity
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,food,food,1,<Food>,food,False,1,test,all_seen
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,test,all_seen
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,gut microbiota metabolism,gut microbiota metabolism,1,<Gut microbiota metabolism>,gut microbiota metabolism,False,3,test,all_unseen
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,test,all_seen
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,mental diseases,mental diseases,1,<Mental disease>,mental disease,False,2,test,all_seen
+mental_health,103,10.1016/j.artmed.2023.102677,mental_health::103,mental health,mental health,1,<Mental health>,mental health,False,2,test,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,benefits,benefits,1,<Benefit>,benefit,False,1,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,brain health,brain health,1,<Brain health>,brain health,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,food components,food components,1,<Food component>,food component,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,food system,food system,1,<Food>,food,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,fresh foods,fresh foods,1,<Fresh food>,fresh food,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,nutritional psychiatry,nutritional psychiatry,1,<Nutritional psychiatry>,nutritional psychiatry,False,2,train,all_seen
+mental_health,140,10.3389/fncir.2023.1170395,mental_health::140,spaceflight food system,spaceflight food system,1,<Food>,food,False,3,train,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,brain,brain,1,<Brain>,brain,False,1,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,gut,gut,1,<Gut>,gut,False,1,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,immune interconnections,immune interconnections,1,<Immune system>,immune system,False,2,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,psychiatric disorders,psychiatric disorders,1,<Psychiatric disorder>,psychiatric disorder,False,2,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,psychiatric symptoms and disorders,psychiatric symptoms and disorders,2,<Psychiatric disorder> | <Psychiatric symptom>,psychiatric disorder | psychiatric symptom,True,4,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,treatment,treatment,1,<Treatment>,treatment,False,1,test,all_seen
+mental_health,210,10.3928/02793695-20230215-02,mental_health::210,treatments,treatments,1,<Treatment>,treatment,False,1,test,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,anxiety,anxiety,1,<Anxiety>,anxiety,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,autism,autism,1,<Autism spectrum disorder>,autism spectrum disorder,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,biodiversity,biodiversity,1,<Biodiversity>,biodiversity,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,biodiversity effect,biodiversity effect,2,<Biodiversity> | <Effect>,biodiversity | effect,True,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,biodiversity hypothesis,biodiversity hypothesis,1,<Biodiversity>,biodiversity,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,biodiversity measurement,biodiversity measurement,1,<Biodiversity>,biodiversity,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,biophysiological mechanisms,biophysiological mechanisms,1,<Biophysiogical mechanism>,biophysiogical mechanism,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,dementia,dementia,1,<Dementia>,dementia,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,ecological biodiversity,ecological biodiversity,1,<Ecological biodiversity>,ecological biodiversity,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,effects,effects,1,<Effect>,effect,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,environment,environment,1,<Environment>,environment,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,green prescription,green prescription,1,<Green prescription>,green prescription,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,halobiont environment,halobiont environment,1,<Holobiont>,holobiont,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,human mental health,human mental health,2,<Human> | <Mental health>,human | mental health,True,3,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,human microbiota,human microbiota,2,<Human> | <Microbiota>,human | microbiota,True,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,human physical and mental health,human physical and mental health,3,<Human> | <Mental health> | <Physical health>,human | mental health | physical health,True,5,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,human studies,human studies,1,<Human study>,human study,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,humans,humans,1,<Human>,human,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,mental health effects,mental health effects,2,<Effect> | <Mental health>,effect | mental health,True,3,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,microbiota alterations,microbiota alterations,1,<Microbiota alteration>,microbiota alteration,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,natural environment,natural environment,1,<Natural environment>,natural environment,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,neuropsychiatric disorders,neuropsychiatric disorders,1,<Neuropsychiatric disorder>,neuropsychiatric disorder,False,2,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,pathophysiology,pathophysiology,1,<Pathophysiology>,pathophysiology,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,patients,patients,1,<Patient>,patient,False,1,train,all_seen
+mental_health,286,10.3390/ijerph191911882,mental_health::286,psychological mechanisms,psychological mechanisms,1,<Psychological mechanism>,psychological mechanism,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,body,body,1,<Body>,body,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,brain diseases,brain diseases,1,<Brain disease>,brain disease,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,brain-body communication,brain-body communication,2,<Body> | <Brain>,body | brain,True,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,cardiovascular diseases,cardiovascular diseases,1,<Cardiovascular disease>,cardiovascular disease,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,diseases,diseases,1,<Disease>,disease,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,dysbiosis,dysbiosis,1,<Dysbiosis>,dysbiosis,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,health,health,1,<Health>,health,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,homeostasis,homeostasis,1,<Homeostasis>,homeostasis,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,interaction,interaction,1,<Interaction>,interaction,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,microbes-derived compounds,microbes-derived compounds,2,<Chemical compound> | <Microorganism>,chemical compound | microorganism,True,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,neurodegenerative disorders,neurodegenerative disorders,1,<Neurodegenerative disorder>,neurodegenerative disorder,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,organs,organs,1,<Organ>,organ,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,pain,pain,1,<Pain>,pain,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,pathophysiology,pathophysiology,1,<Pathophysiology>,pathophysiology,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,patients,patients,1,<Patient>,patient,False,1,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,physical disorders,physical disorders,1,<Physical disorder>,physical disorder,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,psychiatric and neurodegenerative disorders,psychiatric and neurodegenerative disorders,2,<Neurodegenerative disorder> | <Psychiatric disorder>,neurodegenerative disorder | psychiatric disorder,True,4,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,psychiatric disorders,psychiatric disorders,1,<Psychiatric disorder>,psychiatric disorder,False,2,train,all_seen
+mental_health,308,10.1016/j.brainresbull.2022.05.014,mental_health::308,psychiatric symptom,psychiatric symptom,1,<Psychiatric symptom>,psychiatric symptom,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,animal models,animal models,1,<Animal model>,animal model,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,brain regions,brain regions,1,<Brain region>,brain region,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,central and the enteric nervous systems,central and the enteric nervous systems,2,<Central nervous system> | <Enteric nervous system>,central nervous system | enteric nervous system,True,6,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,doses,doses,1,<Dose>,dose,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,effects,effects,1,<Effect>,effect,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,emotional and cognitive processes,emotional and cognitive processes,2,<Cognitive process> | <Emotional process>,cognitive process | emotional process,True,4,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,gba,GBA,1,<Gut-brain axis>,gut-brain axis,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,human neuroimaging,human neuroimaging,2,<Human> | <Neuroimaging>,human | neuroimaging,True,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,humans,humans,1,<Human>,human,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,interaction,interaction,1,<Interaction>,interaction,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,lesion studies,lesion studies,1,<Lesion>,lesion,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,microbiota-gut-brain axis,microbiota-gut-brain axis,1,<Microbiota-gut-brain axis>,microbiota-gut-brain axis,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,neural mechanisms,neural mechanisms,1,<Neural mechanism>,neural mechanism,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,placebo,placebo,1,<Placebo>,placebo,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,placebo group,placebo group,1,<Placebo>,placebo,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,placebo-controlled double-blinded design,placebo-controlled double-blinded design,1,<Placebo-controlled double-blinded design>,placebo-controlled double-blinded design,False,3,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,probiotics group,probiotics group,1,<Probiotic>,probiotic,False,2,train,all_seen
+mental_health,318,10.1038/s41598-022-16251-x,mental_health::318,risk-taking behavior,risk-taking behavior,1,<Risk-taking behavior>,risk-taking behavior,False,2,train,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,behaviour,behaviour,1,<Behavior>,behavior,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,benefits,benefits,1,<Benefit>,benefit,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,bioactives,bioactives,1,<Bioactive>,bioactive,False,1,development,all_unseen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,brain,brain,1,<Brain>,brain,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,communication pathways,communication pathways,1,<Pathway>,pathway,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,fermentation,fermentation,1,<Fermentation>,fermentation,False,1,development,all_unseen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,fermented foods,fermented foods,1,<Fermented food>,fermented food,False,2,development,all_unseen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,gut,gut,1,<Gut>,gut,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,gut microbes,gut microbes,1,<Gut microorganism>,gut microorganism,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,human studies,human studies,1,<Human study>,human study,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,immune system,immune system,1,<Immune system>,immune system,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,mental health,mental health,1,<Mental health>,mental health,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,mental health-promoting potential,mental health-promoting potential,1,<Mental health>,mental health,False,3,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,microbes,microbes,1,<Microorganism>,microorganism,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,microbial metabolites,microbial metabolites,1,<Microbial metabolite>,microbial metabolite,False,2,development,all_unseen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,microbiota-gut-brain axis,microbiota-gut-brain axis,1,<Microbiota-gut-brain axis>,microbiota-gut-brain axis,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,psychobiotics,psychobiotics,1,<Psychobiotic>,psychobiotic,False,1,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,therapeutic merit,therapeutic merit,1,<Therapy>,therapy,False,2,development,all_seen
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,whole food microbiota modulating intervention,whole food microbiota modulating intervention,3,<Intervention> | <Microbiota> | <Whole food>,intervention | microbiota | whole food,True,5,development,mixed
+mental_health,32,10.1016/j.neubiorev.2024.105562,mental_health::32,whole food supplementation strategies,whole food supplementation strategies,1,<Whole food supplementation strategy>,whole food supplementation strategy,False,4,development,all_unseen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,anxiety,anxiety,1,<Anxiety>,anxiety,False,1,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,biological connection,biological connection,1,<Biology>,biology,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,enteric and the central nervous systems,enteric and the central nervous systems,2,<Central nervous system> | <Enteric nervous system>,central nervous system | enteric nervous system,True,6,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,genome,genome,1,<Genome>,genome,False,1,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,host,host,1,<Host>,host,False,1,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,human health,human health,2,<Health> | <Human>,health | human,True,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,human microbiome field,human microbiome field,2,<Human> | <Microbiome>,human | microbiome,True,3,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,mental health disparities,mental health disparities,1,<Mental health>,mental health,False,3,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,microbial sciences,microbial sciences,1,<Microorganism>,microorganism,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,nutrition,nutrition,1,<Nutrition>,nutrition,False,1,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,psychiatric diseases,psychiatric diseases,1,<Psychiatric disease>,psychiatric disease,False,2,train,all_seen
+mental_health,353,10.3390/microorganisms10040763,mental_health::353,sequencing costs,sequencing costs,1,<Sequencing>,sequencing,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,anxiolytic and antidepressant effects,anxiolytic and antidepressant effects,2,<Antidepressant effect> | <Anxiolytic effect>,antidepressant effect | anxiolytic effect,True,4,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,benefits,benefits,1,<Benefit>,benefit,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,biological effect,biological effect,1,<Biological effect>,biological effect,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,clinical trials,clinical trials,1,<Clinical trial>,clinical trial,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,gut health,gut health,1,<Gut health>,gut health,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,gut-microbiota,gut-microbiota,1,<Gut microbiota>,gut microbiota,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,healthcare,healthcare,1,<Healthcare>,healthcare,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,mechanism,mechanism,1,<Mechanism>,mechanism,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,medication,medication,1,<Medication>,medication,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,neural health benefits,neural health benefits,2,<Benefit> | <Neural health>,benefit | neural health,True,3,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,neurological conditions,neurological conditions,1,<Neurological condition>,neurological condition,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,neurological diseases,neurological diseases,1,<Neurological disease>,neurological disease,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,probiotic food research,probiotic food research,1,<Probiotic food>,probiotic food,False,3,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,probiotic foods and formulations,probiotic foods and formulations,2,<Probiotic food> | <Probiotic formulation>,probiotic food | probiotic formulation,True,4,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,probiotic mode of action,probiotic mode of action,1,<Probiotic>,probiotic,False,4,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,probiotic strains,probiotic strains,1,<Probiotic strain>,probiotic strain,False,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,psychobiotic-based therapeutics,psychobiotic-based therapeutics,2,<Psychobiotic> | <Therapy>,psychobiotic | therapy,True,2,train,all_seen
+mental_health,422,10.1093/femsle/fnab096,mental_health::422,psychobiotics,psychobiotics,1,<Psychobiotic>,psychobiotic,False,1,train,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,adjuvant therapies,adjuvant therapies,1,<Adjuvant therapy>,adjuvant therapy,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,alzheimer disease,Alzheimer disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,anxiety,anxiety,1,<Anxiety>,anxiety,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,autism spectrum disorder,autism spectrum disorder,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,bacterial components,bacterial components,1,<Bacterium>,bacterium,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,behavior,behavior,1,<Behavior>,behavior,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,bipolar disorder,bipolar disorder,1,<Bipolar disorder>,bipolar disorder,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,brain,brain,1,<Brain>,brain,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,clinical evidence,clinical evidence,1,<Clinical evidence>,clinical evidence,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,dementia,dementia,1,<Dementia>,dementia,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,fecal microbiota transplantation,fecal microbiota transplantation,1,<Fecal microbiota transplantation>,fecal microbiota transplantation,False,3,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,gastrointestinal tract,gastrointestinal tract,1,<Gastrointestinal tract>,gastrointestinal tract,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,host,host,1,<Host>,host,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,immune system,immune system,1,<Immune system>,immune system,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,interaction,interaction,1,<Interaction>,interaction,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,intestinal ecosystem,intestinal ecosystem,1,<Intestinal ecosystem>,intestinal ecosystem,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,intestinal epithelium,intestinal epithelium,1,<Intestinal epithelium>,intestinal epithelium,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,intestinal metabolites,intestinal metabolites,1,<Gut metabolite>,gut metabolite,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,intestinal microbiota,intestinal microbiota,1,<Gut microbiota>,gut microbiota,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,major depressive disorder,major depressive disorder,1,<Major depressive disorder>,major depressive disorder,False,3,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,mental health,mental health,1,<Mental health>,mental health,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,microbial cells,microbial cells,1,<Microbial cell>,microbial cell,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,microbial origin,microbial origin,1,<Microorganism>,microorganism,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,microbiota-gut-brain axis,microbiota-gut-brain axis,1,<Microbiota-gut-brain axis>,microbiota-gut-brain axis,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,mood,mood,1,<Mood>,mood,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,neurological and psychiatric disorders,neurological and psychiatric disorders,2,<Neurological disorder> | <Psychiatric disorder>,neurological disorder | psychiatric disorder,True,4,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,neuropsychiatric disorders,neuropsychiatric disorders,1,<Neuropsychiatric disorder>,neuropsychiatric disorder,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,pathways,pathways,1,<Pathway>,pathway,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,physiological change,physiological change,1,<Physiological change>,physiological change,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,prebiotics,prebiotics,1,<Prebiotic>,prebiotic,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,schizophrenia,schizophrenia,1,<Schizophrenia>,schizophrenia,False,1,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,short-chain fatty acids,short-chain fatty acids,1,<Short-chain fatty acid>,short-chain fatty acid,False,3,test,all_seen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,signaling mechanism,signaling mechanism,1,<Signaling mechanism>,signaling mechanism,False,2,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,small and large intestine,small and large intestine,2,<Large intestine> | <Small intestine>,large intestine | small intestine,True,4,test,all_unseen
+mental_health,461,10.1590/1516-4446-2020-0987,mental_health::461,tryptophan metabolites,tryptophan metabolites,1,<Tryptophan metabolite>,tryptophan metabolite,False,2,test,all_unseen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,axis,axis,1,<Axis>,axis,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,biochemical processes,biochemical processes,1,<Biochemical process>,biochemical process,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,effect,effect,1,<Effect>,effect,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,gut microbes,gut microbes,1,<Gut microorganism>,gut microorganism,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,gut-brain connection,gut-brain connection,2,<Brain> | <Gut>,brain | gut,True,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,health,health,1,<Health>,health,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,mindfulness,mindfulness,1,<Mindfulness>,mindfulness,False,1,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,mindfulness initiatives,mindfulness initiatives,1,<Mindfulness>,mindfulness,False,2,train,all_seen
+mental_health,544,10.2144/fsoa-2020-0006,mental_health::544,yoga,yoga,1,<Yoga>,yoga,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,animals,animals,1,<Animal>,animal,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,brain connectivity,brain connectivity,1,<Brain connectivity>,brain connectivity,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,cross-sectional design,cross-sectional design,1,<Cross-sectional design>,cross-sectional design,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,effect,effect,1,<Effect>,effect,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,gut microbiota-brain axis,gut microbiota-brain axis,1,<Gut microbiota-brain axis>,gut microbiota-brain axis,False,3,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,gut microbiota-brain communication,gut microbiota-brain communication,2,<Brain> | <Gut microbiota>,brain | gut microbiota,True,3,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,health,health,1,<Health>,health,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,humans,humans,1,<Human>,human,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,longitudinal studies,longitudinal studies,1,<Longitudinal study>,longitudinal study,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,mental disease,mental disease,1,<Mental disease>,mental disease,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,mental health outcomes,mental health outcomes,1,<Mental health>,mental health,False,3,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,microbiota composition,microbiota composition,1,<Microbiota>,microbiota,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,mood disorders,mood disorders,1,<Mood disorder>,mood disorder,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,pregnancy related stress,pregnancy related stress,2,<Pregnancy> | <Stress>,pregnancy | stress,True,3,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,sample size,sample size,1,<Sample>,sample,False,2,train,all_seen
+mental_health,549,10.1016/j.conb.2020.01.016,mental_health::549,sample sizes,sample sizes,1,<Sample>,sample,False,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,cns diseases,CNS diseases,1,<Central nervous system disease>,central nervous system disease,False,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,gastrointestinal microbiota,gastrointestinal microbiota,1,<Gastrointestinal microbiota>,gastrointestinal microbiota,False,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,human microbiome,human microbiome,2,<Human> | <Microbiome>,human | microbiome,True,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,interactions,interactions,1,<Interaction>,interaction,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,intestinal microbiota,intestinal microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,pathogenesis,pathogenesis,1,<Pathogenesis>,pathogenesis,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,risk,risk,1,<Risk>,risk,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,schizophrenia,schizophrenia,1,<Schizophrenia>,schizophrenia,False,1,train,all_seen
+mental_health,570,10.1016/j.neubiorev.2019.12.011,mental_health::570,schizophrenia development chain,schizophrenia development chain,1,<Schizophrenia>,schizophrenia,False,3,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,adverse effects,adverse effects,1,<Adverse effect>,adverse effect,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,bacterial functions,bacterial functions,1,<Bacterial function>,bacterial function,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,behavior,behavior,1,<Behavior>,behavior,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,bipolar disorder,bipolar disorder,1,<Bipolar disorder>,bipolar disorder,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,bipolar disorder risk,bipolar disorder risk,2,<Bipolar disorder> | <Risk>,bipolar disorder | risk,True,3,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,"commensal, symbiotic, and pathogenic microorganisms","commensal, symbiotic, and pathogenic microorganisms",3,<Commensal microorganism> | <Pathogenic microorganism> | <Symbiotic microorganism>,commensal microorganism | pathogenic microorganism | symbiotic microorganism,True,5,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,disease risk,disease risk,2,<Disease> | <Risk>,disease | risk,True,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,effect,effect,1,<Effect>,effect,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,gastrointestinal illnesses,gastrointestinal illnesses,1,<Gastrointestinal illness>,gastrointestinal illness,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,gut bacteria,gut bacteria,1,<Gut bacterium>,gut bacterium,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,host,host,1,<Host>,host,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,host functioning,host functioning,1,<Host>,host,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,inflammation,inflammation,1,<Inflammation>,inflammation,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,inflammatory bowel disease,inflammatory bowel disease,1,<Inflammatory bowel disease>,inflammatory bowel disease,False,3,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,medical conditions,medical conditions,1,<Medical condition>,medical condition,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,medication,medication,1,<Medication>,medication,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,medications,medications,1,<Medication>,medication,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,microbial communities,microbial communities,1,<Microorganism>,microorganism,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,microbial community function,microbial community function,1,<Microorganism>,microorganism,False,3,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,mood,mood,1,<Mood>,mood,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,mood symptoms,mood symptoms,1,<Mood symptom>,mood symptom,False,2,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,patients,patients,1,<Patient>,patient,False,1,train,all_seen
+mental_health,572,10.1159/000504496,mental_health::572,pharmacotherapy management,pharmacotherapy management,1,<Pharmacotherapy>,pharmacotherapy,False,2,train,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,anxiety,anxiety,1,<Anxiety>,anxiety,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,body sites,body sites,1,<Body site>,body site,False,2,test,all_unseen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,brain,brain,1,<Brain>,brain,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,depression,depression,1,<Depression>,depression,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,environmental pollutants,environmental pollutants,1,<Environmental pollutant>,environmental pollutant,False,2,test,all_unseen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,gut,gut,1,<Gut>,gut,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,health and disease issues,health and disease issues,2,<Disease> | <Health>,disease | health,True,4,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,human,human,1,<Human>,human,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,human studies,human studies,1,<Human study>,human study,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,mental health,mental health,1,<Mental health>,mental health,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,microbes,microbes,1,<Microorganism>,microorganism,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,microbes-host ecosystem,microbes-host ecosystem,3,<Ecosystem> | <Host> | <Microorganism>,ecosystem | host | microorganism,True,2,test,mixed
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,obese westerners,obese westerners,1,<Obesity>,obesity,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,probiotic applications,probiotic applications,1,<Probiotic>,probiotic,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,therapeutic potential,therapeutic potential,1,<Therapy>,therapy,False,2,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,therapies,therapies,1,<Therapy>,therapy,False,1,test,all_seen
+mental_health,611,10.3389/fendo.2019.00081,mental_health::611,vagus nerve,vagus nerve,1,<Vagus nerve>,vagus nerve,False,2,test,all_unseen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,animal studies,animal studies,1,<Animal study>,animal study,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,animals,animals,1,<Animal>,animal,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,bacteria,bacteria,1,<Bacterium>,bacterium,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,chronic stress,chronic stress,1,<Chronic stress>,chronic stress,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,cognitive functions,cognitive functions,1,<Cognitive function>,cognitive function,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,gastrointestinal homeostasis,gastrointestinal homeostasis,1,<Gastrointestinal homeostasis>,gastrointestinal homeostasis,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,genes,genes,1,<Gene>,gene,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,gutbrain crosstalk,gutbrain crosstalk,2,<Brain> | <Gut>,brain | gut,True,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,human,human,1,<Human>,human,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,inflammatory gastrointestinal disorders,inflammatory gastrointestinal disorders,1,<Inflammatory gastrointestinal disorder>,inflammatory gastrointestinal disorder,False,3,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,mental disorders,mental disorders,1,<Mental disorder>,mental disorder,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,microbiology,microbiology,1,<Microbiology>,microbiology,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,neurons,neurons,1,<Neuron>,neuron,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,neuroscience,neuroscience,1,<Neuroscience>,neuroscience,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,obesity,obesity,1,<Obesity>,obesity,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,psychiatric disorders,psychiatric disorders,1,<Psychiatric disorder>,psychiatric disorder,False,2,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,psychiatry,psychiatry,1,<Psychiatry>,psychiatry,False,1,train,all_seen
+mental_health,625,10.12740/pp/onlinefirst/81103,mental_health::625,therapeutic options,therapeutic options,1,<Therapeutic option>,therapeutic option,False,2,train,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,benefit,benefit,1,<Benefit>,benefit,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,controls,controls,1,<Control>,control,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,effects,effects,1,<Effect>,effect,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,fecal microbiota,fecal microbiota,1,<Fecal microbiota>,fecal microbiota,False,2,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,fep,FEP,1,<First-episode psychosis>,first-episode psychosis,False,1,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,fep patients,FEP patients,2,<First-episode psychosis> | <Patient>,first-episode psychosis | patient,True,2,development,mixed
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,fep-patients,FEP-patients,2,<First-episode psychosis> | <Patient>,first-episode psychosis | patient,True,1,development,mixed
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,first episode psychosis,first episode psychosis,1,<First-episode psychosis>,first-episode psychosis,False,3,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,first-episode psychosis,first-episode psychosis,1,<First-episode psychosis>,first-episode psychosis,False,2,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,lactobacillus group bacteria,Lactobacillus group bacteria,2,<Bacterium> | <Lactobacillus>,bacterium | lactobacillus,True,3,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,mental disorders,mental disorders,1,<Mental disorder>,mental disorder,False,2,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,microbiota alterations,microbiota alterations,1,<Microbiota alteration>,microbiota alteration,False,2,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,microbiota differences,microbiota differences,1,<Microbiota>,microbiota,False,2,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,patients,patients,1,<Patient>,patient,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,psychotic illness,psychotic illness,1,<Psychotic illness>,psychotic illness,False,2,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,remission,remission,1,<Remission>,remission,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,symptom domains,symptom domains,1,<Symptom>,symptom,False,2,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,symptom severity,symptom severity,1,<Symptom severity>,symptom severity,False,2,development,all_unseen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,treatment,treatment,1,<Treatment>,treatment,False,1,development,all_seen
+mental_health,651,10.1016/j.schres.2017.04.017,mental_health::651,treatment response,treatment response,1,<Treatment response>,treatment response,False,2,development,all_unseen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,bacterial-based interventions,bacterial-based interventions,2,<Bacterium> | <Intervention>,bacterium | intervention,True,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,bd,BD,1,<Bipolar disorder>,bipolar disorder,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,benefits,benefits,1,<Benefit>,benefit,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,bipolar disorder,bipolar disorder,1,<Bipolar disorder>,bipolar disorder,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,central nervous system-based disorders,central nervous system-based disorders,2,<Central nervous system> | <Disorder>,central nervous system | disorder,True,4,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,disability,disability,1,<Disability>,disability,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,disease modifying treatment,disease modifying treatment,2,<Disease> | <Treatment>,disease | treatment,True,3,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,disorders,disorders,1,<Disorder>,disorder,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,etiopathology,etiopathology,1,<Etiopathology>,etiopathology,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,gastrointestinal microbiota,gastrointestinal microbiota,1,<Gastrointestinal microbiota>,gastrointestinal microbiota,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,intervention studies,intervention studies,1,<Clinical trial>,clinical trial,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,major depressive disorder,major depressive disorder,1,<Major depressive disorder>,major depressive disorder,False,3,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,mdd,MDD,1,<Major depressive disorder>,major depressive disorder,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,mental health benefit,mental health benefit,2,<Benefit> | <Mental health>,benefit | mental health,True,3,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,microbiota abnormalities,microbiota abnormalities,1,<Microbiota abnormality>,microbiota abnormality,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,mood disorders,mood disorders,1,<Mood disorder>,mood disorder,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,pathophysiology,pathophysiology,1,<Pathophysiology>,pathophysiology,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,psychobiotics,psychobiotics,1,<Psychobiotic>,psychobiotic,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,remission rates,remission rates,1,<Remission>,remission,False,2,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,treatment,treatment,1,<Treatment>,treatment,False,1,train,all_seen
+mental_health,661,10.1515/revneuro-2017-0001,mental_health::661,treatment options,treatment options,1,<Treatment>,treatment,False,2,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,carbohydrates,carbohydrates,1,<Carbohydrate>,carbohydrate,False,1,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,host,host,1,<Host>,host,False,1,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,prebiotic candidates,prebiotic candidates,1,<Prebiotic>,prebiotic,False,2,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,prebiotics,prebiotics,1,<Prebiotic>,prebiotic,False,1,train,all_seen
+mental_health,681,10.1097/md.0000000000005585,mental_health::681,prebiotics prediction,prebiotics prediction,1,<Prebiotic>,prebiotic,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,behavior,behavior,1,<Behavior>,behavior,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,brain function,brain function,1,<Brain function>,brain function,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,disease,disease,1,<Disease>,disease,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,health,health,1,<Health>,health,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,health disorders,health disorders,1,<Disorder>,disorder,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,humans,humans,1,<Human>,human,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,neuroendocrine function,neuroendocrine function,1,<Neuroendocrine function>,neuroendocrine function,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,neuroscience,neuroscience,1,<Neuroscience>,neuroscience,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,neuroscientists,neuroscientists,1,<Neuroscientist>,neuroscientist,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,obesity,obesity,1,<Obesity>,obesity,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,psychiatric disorders,psychiatric disorders,1,<Psychiatric disorder>,psychiatric disorder,False,2,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,psychiatrists,psychiatrists,1,<Psychiatrist>,psychiatrist,False,1,train,all_seen
+mental_health,687,10.1093/ijnp/pyv114,mental_health::687,sequencing technology,sequencing technology,1,<Sequencing>,sequencing,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,axis,axis,1,<Axis>,axis,False,1,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,brain health,brain health,1,<Brain health>,brain health,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,clinical validation,clinical validation,1,<Clinical validation>,clinical validation,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,microbe,microbe,1,<Microorganism>,microorganism,False,1,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,mood,mood,1,<Mood>,mood,False,1,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,stress response,stress response,1,<Stress response>,stress response,False,2,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,stress-related psychiatric disorders,stress-related psychiatric disorders,2,<Psychiatric disorder> | <Stress>,psychiatric disorder | stress,True,3,train,all_seen
+mental_health,688,10.1186/s13073-016-0292-1,mental_health::688,treat,treat,1,<Treat>,treat,False,1,train,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,autism spectrum disorder,autism spectrum disorder,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,behavior,behavior,1,<Behavior>,behavior,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,brain,brain,1,<Brain>,brain,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,ecosystem,ecosystem,1,<Ecosystem>,ecosystem,False,1,development,all_unseen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,gut,gut,1,<Gut>,gut,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,gut microbiota function,gut microbiota function,1,<Gut microbiota function>,gut microbiota function,False,3,development,all_unseen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,health,health,1,<Health>,health,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,host,host,1,<Host>,host,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,human gut microbiota,human gut microbiota,2,<Gut microbiota> | <Human>,gut microbiota | human,True,3,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,mental health,mental health,1,<Mental health>,mental health,False,2,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,microbes,microbes,1,<Microorganism>,microorganism,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,microbial ecosystem,microbial ecosystem,1,<Microbial ecosystem>,microbial ecosystem,False,2,development,all_unseen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,development,all_seen
+mental_health,703,10.3402/mehd.v26.26309,mental_health::703,organ,organ,1,<Organ>,organ,False,1,development,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,biomarkers,biomarkers,1,<Biomarker>,biomarker,False,1,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,depressive disorder,depressive disorder,1,<Depressive disorder>,depressive disorder,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,diagnostic and therapeutic strategies,diagnostic and therapeutic strategies,2,<Diagnostic strategy> | <Therapeutic strategy>,diagnostic strategy | therapeutic strategy,True,4,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,disorder status,disorder status,1,<Disorder status>,disorder status,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,faecalibacterium prausnitzii,Faecalibacterium prausnitzii,1,<Faecalibacterium prausnitzii>,faecalibacterium prausnitzii,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,human nervous system,human nervous system,2,<Human> | <Nervous system>,human | nervous system,True,3,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,major depressive disorder,major depressive disorder,1,<Major depressive disorder>,major depressive disorder,False,3,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,mental health,mental health,1,<Mental health>,mental health,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,metagenomic samples,metagenomic samples,1,<Metagenomic sample>,metagenomic sample,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,microbiome samples,microbiome samples,1,<Microbiome sample>,microbiome sample,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,molecular interplay,molecular interplay,1,<Molecule>,molecule,False,2,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,patients,patients,1,<Patient>,patient,False,1,train,all_seen
+mental_health,95,10.3390/ijms242216459,mental_health::95,taxonomic and functional changes,taxonomic and functional changes,2,<Functional change> | <Taxonomic change>,functional change | taxonomic change,True,4,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,akkermansia,Akkermansia,1,<Akkermansia>,akkermansia,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,alterations,alterations,1,<Alteration>,alteration,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,bacteria,bacteria,1,<Bacterium>,bacterium,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,bifidobacterium,Bifidobacterium,1,<Bifidobacterium>,bifidobacterium,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,cohorts,cohorts,1,<Cohort>,cohort,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,controls,controls,1,<Control>,control,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,disease,disease,1,<Disease>,disease,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,dysbiosis,dysbiosis,1,<Dysbiosis>,dysbiosis,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,enteric nervous system,enteric nervous system,1,<Enteric nervous system>,enteric nervous system,False,3,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,faecalibacterium,Faecalibacterium,1,<Faecalibacterium>,faecalibacterium,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,family,family,1,<Family>,family,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,gastrointestinal symptoms,gastrointestinal symptoms,1,<Gastrointestinal symptom>,gastrointestinal symptom,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,genera,genera,1,<Genus>,genus,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,genus,genus,1,<Genus>,genus,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,gut microbes,gut microbes,1,<Gut microorganism>,gut microorganism,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,intestinal inflammation,intestinal inflammation,1,<Intestinal inflammation>,intestinal inflammation,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,lachnospiraceae,Lachnospiraceae,1,<Lachnospiraceae>,lachnospiraceae,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,lactobacillus,Lactobacillus,1,<Lactobacillus>,lactobacillus,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,microbiome structure,microbiome structure,1,<Microbiome>,microbiome,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,neurodegenerative diseases,neurodegenerative diseases,1,<Neurodegenerative disease>,neurodegenerative disease,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,parkinson's disease (pd) symptomatology and pathophysiology,Parkinson's disease (PD) symptomatology and pathophysiology,3,<Parkinson's disease> | <Pathophysiology> | <Symptomatology>,parkinson's disease | pathophysiology | symptomatology,True,6,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,parkinson's disease gut microbiome,Parkinson's disease gut microbiome,2,<Gut microbiome> | <Parkinson's disease>,gut microbiome | parkinson's disease,True,4,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pd,PD,1,<Parkinson's disease>,parkinson's disease,False,1,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pd gut microbiome alterations,PD gut microbiome alterations,2,<Gut microbiome alteration> | <Parkinson's disease>,gut microbiome alteration | parkinson's disease,True,4,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pd patients,PD patients,2,<Parkinson's disease> | <Patient>,parkinson's disease | patient,True,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pd-associated microbiome,PD-associated microbiome,2,<Microbiome> | <Parkinson's disease>,microbiome | parkinson's disease,True,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pd-specific microbiota,PD-specific microbiota,2,<Microbiota> | <Parkinson's disease>,microbiota | parkinson's disease,True,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,pro-inflammatory status,pro-inflammatory status,1,<Pro-inflammatory status>,pro-inflammatory status,False,2,train,all_seen
+parkinson,120,10.1038/s41531-021-00156-z,parkinson::120,short-chain fatty acids producers,short-chain fatty acids producers,1,<Short-chain fatty acid>,short-chain fatty acid,False,4,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,ad,AD,1,<Alzheimer's disease>,alzheimer's disease,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,als,ALS,1,<Amyotrophic lateral sclerosis>,amyotrophic lateral sclerosis,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,1,<Amyotrophic lateral sclerosis>,amyotrophic lateral sclerosis,False,3,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,antibiotic therapy,antibiotic therapy,1,<Antibiotic therapy>,antibiotic therapy,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,anxiety,anxiety,1,<Anxiety>,anxiety,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,asds,ASDs,1,<Autism spectrum disorder>,autism spectrum disorder,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,autism spectrum disorders,autism spectrum disorders,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,carbohydrate,carbohydrate,1,<Carbohydrate>,carbohydrate,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,central nervous system (cns) disorders,central nervous system (CNS) disorders,2,<Central nervous system disorder> | <Central nervous system>,central nervous system | central nervous system disorder,True,5,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,clinical studies,clinical studies,1,<Clinical study>,clinical study,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,cns disorders,CNS disorders,1,<Central nervous system disorder>,central nervous system disorder,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,colonization pattern,colonization pattern,1,<Colonization>,colonization,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,depression,depression,1,<Depression>,depression,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,diet,diet,1,<Diet>,diet,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,epilepsy,epilepsy,1,<Epilepsy>,epilepsy,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,fat,fat,1,<Fat>,fat,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,genetics,genetics,1,<Genetics>,genetics,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut microbes,gut microbes,1,<Gut microorganism>,gut microorganism,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut-brain axis functions,gut-brain axis functions,1,<Gut-brain axis function>,gut-brain axis function,False,3,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,gut-brain bidirectional axis,gut-brain bidirectional axis,3,<Axis> | <Brain> | <Gut>,axis | brain | gut,True,3,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,in vivo animal models,in vivo animal models,1,<In vivo animal model>,in vivo animal model,False,4,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,in vivo cns disease models,in vivo CNS disease models,1,<In vivo CNS disease model>,in vivo cns disease model,False,5,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,in vivo study,in vivo study,1,<In vivo study>,in vivo study,False,3,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,kd,KD,1,<Ketogenic diet>,ketogenic diet,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,kd-based therapy,KD-based therapy,2,<Ketogenic diet> | <Therapy>,ketogenic diet | therapy,True,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,ketogenic diet,ketogenic diet,1,<Ketogenic diet>,ketogenic diet,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,mechanism,mechanism,1,<Mechanism>,mechanism,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,metabolism,metabolism,1,<Metabolism>,metabolism,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,microbiota composition,microbiota composition,1,<Microbiota>,microbiota,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,ms,MS,1,<Multiple sclerosis>,multiple sclerosis,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,neurologic disorders,neurologic disorders,1,<Neurological disorder>,neurological disorder,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,neurological diseases,neurological diseases,1,<Neurological disease>,neurological disease,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,pathogenesis,pathogenesis,1,<Pathogenesis>,pathogenesis,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,pd,PD,1,<Parkinson's disease>,parkinson's disease,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,protective effects,protective effects,1,<Protective effect>,protective effect,False,2,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,protein,protein,1,<Protein>,protein,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,stress,stress,1,<Stress>,stress,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,therapies,therapies,1,<Therapy>,therapy,False,1,train,all_seen
+parkinson,138,10.1515/revneuro-2020-0078,parkinson::138,treat,treat,1,<Treat>,treat,False,1,train,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,alterations,alterations,1,<Alteration>,alteration,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,1,<Amyotrophic lateral sclerosis>,amyotrophic lateral sclerosis,False,3,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,conditions,conditions,1,<Medical condition>,medical condition,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,diseases,diseases,1,<Disease>,disease,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,effect,effect,1,<Effect>,effect,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,epilepsy,epilepsy,1,<Epilepsy>,epilepsy,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,homan body,homan body,1,<Human>,human,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,human body,human body,1,<Body>,body,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,human health,human health,2,<Health> | <Human>,health | human,True,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,interactions,interactions,1,<Interaction>,interaction,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,mediators,mediators,1,<Mediator>,mediator,False,1,test,all_unseen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,microbes,microbes,1,<Microorganism>,microorganism,False,1,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,microbiome-mediated contributions,microbiome-mediated contributions,1,<Microbiome>,microbiome,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,neurodevelopmental disorders,neurodevelopmental disorders,1,<Neurodevelopmental disorder>,neurodevelopmental disorder,False,2,test,all_unseen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,neurological conditions,neurological conditions,1,<Neurological condition>,neurological condition,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,neurological diseases,neurological diseases,1,<Neurological disease>,neurological disease,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,neurological health,neurological health,1,<Neurological health>,neurological health,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,neurological health and disease,neurological health and disease,2,<Neurological disease> | <Neurological health>,neurological disease | neurological health,True,4,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,test,all_seen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,therapeutic benefits,therapeutic benefits,1,<Therapeutic benefit>,therapeutic benefit,False,2,test,all_unseen
+parkinson,151,10.1016/s0074-7742(22)00138-6,parkinson::151,traumatic injury,traumatic injury,1,<Traumatic injury>,traumatic injury,False,2,test,all_unseen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,autism spectrum disorder,autism spectrum disorder,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,central nervous system diseases and disorders,central nervous system diseases and disorders,2,<Central nervous system disease> | <Central nervous system disorder>,central nervous system disease | central nervous system disorder,True,6,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,depression,depression,1,<Depression>,depression,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,disease onset and progression,disease onset and progression,1,<Disease>,disease,False,4,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,diseases,diseases,1,<Disease>,disease,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,gut microbiome composition,gut microbiome composition,1,<Gut microbiome>,gut microbiome,False,3,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,gut microbiome-derived mediators,gut microbiome-derived mediators,2,<Gut microbiome> | <Mediator>,gut microbiome | mediator,True,3,development,mixed
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,immune states,immune states,1,<Immune state>,immune state,False,2,development,all_unseen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,immune system,immune system,1,<Immune system>,immune system,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,immune system involvement,immune system involvement,1,<Immune system>,immune system,False,3,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,inflammation,inflammation,1,<Inflammation>,inflammation,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,interactions,interactions,1,<Interaction>,interaction,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,lipopolysaccharide,lipopolysaccharide,1,<Lipopolysaccharide>,lipopolysaccharide,False,1,development,all_unseen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,metabolites,metabolites,1,<Metabolite>,metabolite,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,microbiome influences,microbiome influences,1,<Microbiome>,microbiome,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,neuro-immune interactions,neuro-immune interactions,1,<Neuro-immune interaction>,neuro-immune interaction,False,2,development,all_unseen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,neurodegenerative disease,neurodegenerative disease,1,<Neurodegenerative disease>,neurodegenerative disease,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,neurological diseases,neurological diseases,1,<Neurological disease>,neurological disease,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,neurotransmitters,neurotransmitters,1,<Neurotransmitter>,neurotransmitter,False,1,development,all_unseen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,pathogenesis,pathogenesis,1,<Pathogenesis>,pathogenesis,False,1,development,all_seen
+parkinson,152,10.1016/bs.irn.2022.07.006,parkinson::152,short-chain fatty acids,short-chain fatty acids,1,<Short-chain fatty acid>,short-chain fatty acid,False,3,development,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,clinical trials,clinical trials,1,<Clinical trial>,clinical trial,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,cognitive disorders,cognitive disorders,1,<Cognitive disorder>,cognitive disorder,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,cognitive impairment,cognitive impairment,1,<Cognitive impairment>,cognitive impairment,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,diseases,diseases,1,<Disease>,disease,False,1,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,human studies,human studies,1,<Human study>,human study,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,humans,humans,1,<Human>,human,False,1,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,neurological ones,neurological ones,1,<Neurological disease>,neurological disease,False,2,train,all_seen
+parkinson,205,10.3233/jad-215224,parkinson::205,observational studies,observational studies,1,<Observational study>,observational study,False,2,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,disease,disease,1,<Disease>,disease,False,1,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,disease phenotypes,disease phenotypes,1,<Disease phenotype>,disease phenotype,False,2,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,genes,genes,1,<Gene>,gene,False,1,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,gut microbes,gut microbes,1,<Gut microorganism>,gut microorganism,False,2,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,host-microbe interactions,host-microbe interactions,3,<Host> | <Interaction> | <Microorganism>,host | interaction | microorganism,True,2,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,inflammatory bowel disease,inflammatory bowel disease,1,<Inflammatory bowel disease>,inflammatory bowel disease,False,3,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,interactions,interactions,1,<Interaction>,interaction,False,1,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,metabolites,metabolites,1,<Metabolite>,metabolite,False,1,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+parkinson,241,10.1101/2023.12.01.569645,parkinson::241,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,aging,aging,1,<Aging>,aging,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,1,<Amyotrophic lateral sclerosis>,amyotrophic lateral sclerosis,False,3,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,antibiotics,antibiotics,1,<Antibiotic>,antibiotic,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,brain functions,brain functions,1,<Brain function>,brain function,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,brain homeostasis,brain homeostasis,1,<Brain homeostasis>,brain homeostasis,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut microbiome-mediated management,gut microbiome-mediated management,1,<Gut microbiome>,gut microbiome,False,3,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,gut-microbiome-derived exosomes,gut-microbiome-derived exosomes,2,<Exosome> | <Gut microbiome>,exosome | gut microbiome,True,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,molecular mechanisms,molecular mechanisms,1,<Molecular mechanism>,molecular mechanism,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,neurodegenerative diseases,neurodegenerative diseases,1,<Neurodegenerative disease>,neurodegenerative disease,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,neurological diseases,neurological diseases,1,<Neurological disease>,neurological disease,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,neurological health,neurological health,1,<Neurological health>,neurological health,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,pharmacological interventions,pharmacological interventions,1,<Pharmacological intervention>,pharmacological intervention,False,2,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,prebiotics,prebiotics,1,<Prebiotic>,prebiotic,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,probiotics,probiotics,1,<Probiotic>,probiotic,False,1,train,all_seen
+parkinson,270,10.1016/j.lfs.2023.122022,parkinson::270,therapeutic target,therapeutic target,1,<Therapeutic target>,therapeutic target,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,age-related neurological diseases,age-related neurological diseases,1,<Neurological disease>,neurological disease,False,3,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,1,<Amyotrophic lateral sclerosis>,amyotrophic lateral sclerosis,False,3,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,animal models,animal models,1,<Animal model>,animal model,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,behavior,behavior,1,<Behavior>,behavior,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,disease development and progression,disease development and progression,1,<Disease>,disease,False,4,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,effects,effects,1,<Effect>,effect,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,gastrointestinal tract,gastrointestinal tract,1,<Gastrointestinal tract>,gastrointestinal tract,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,gut dysbiosis,gut dysbiosis,1,<Gut dysbiosis>,gut dysbiosis,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,gut microbiome composition,gut microbiome composition,1,<Gut microbiome>,gut microbiome,False,3,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,host,host,1,<Host>,host,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,host physiological processes,host physiological processes,2,<Host> | <Physiological process>,host | physiological process,True,3,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,inflammatory changes,inflammatory changes,1,<Inflammatory change>,inflammatory change,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,microbiome community structure,microbiome community structure,1,<Microbiome>,microbiome,False,3,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,microbiome manipulation,microbiome manipulation,1,<Microbiome>,microbiome,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,microorganisms,microorganisms,1,<Microorganism>,microorganism,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,neurodevelopment,neurodevelopment,1,<Neurodevelopment>,neurodevelopment,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,neurological disease,neurological disease,1,<Neurological disease>,neurological disease,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,patient populations,patient populations,1,<Patient population>,patient population,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,susceptibility,susceptibility,1,<Susceptibility>,susceptibility,False,1,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,symbiotic relationship,symbiotic relationship,1,<Symbiosis>,symbiosis,False,2,train,all_seen
+parkinson,272,10.1055/s-0043-1771463,parkinson::272,therapeutic targets,therapeutic targets,1,<Therapeutic target>,therapeutic target,False,2,train,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,afferents,afferents,1,<Afferent>,afferent,False,1,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,alpha-synuclein,alpha-synuclein,1,<α-synuclein>,α-synuclein,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,axis,axis,1,<Axis>,axis,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,benefit,benefit,1,<Benefit>,benefit,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,biology,biology,1,<Biology>,biology,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,brain,brain,1,<Brain>,brain,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,digestion,digestion,1,<Digestion>,digestion,False,1,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,disease development and progression,disease development and progression,1,<Disease>,disease,False,4,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,gut,gut,1,<Gut>,gut,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,gut-microbiome-brain axis,gut-microbiome-brain axis,1,<Gut-microbiome-brain axis>,gut-microbiome-brain axis,False,2,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,gut-related factors,gut-related factors,1,<Gut>,gut,False,2,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,heart rate,heart rate,1,<Heart rate>,heart rate,False,2,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,immune response,immune response,1,<Immune response>,immune response,False,2,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,microbiota metabolites,microbiota metabolites,1,<Microbiota metabolite>,microbiota metabolite,False,2,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,mood,mood,1,<Mood>,mood,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,parasympathetic nervous system,parasympathetic nervous system,1,<Parasympathetic nervous system>,parasympathetic nervous system,False,3,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,patient,patient,1,<Patient>,patient,False,1,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,preclinical and clinical studies,preclinical and clinical studies,2,<Clinical study> | <Preclinical study>,clinical study | preclinical study,True,4,test,mixed
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,therapeutic strategies,therapeutic strategies,1,<Therapeutic strategy>,therapeutic strategy,False,2,test,all_seen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,treatment responses,treatment responses,1,<Treatment response>,treatment response,False,2,test,all_unseen
+parkinson,275,10.4103/1673-5374.373673,parkinson::275,vagus nerve,vagus nerve,1,<Vagus nerve>,vagus nerve,False,2,test,all_unseen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,amyloids,amyloids,1,<Amyloid>,amyloid,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,bacteria,bacteria,1,<Bacterium>,bacterium,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,bacterial amyloids,bacterial amyloids,1,<Bacterial amyloid>,bacterial amyloid,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,bacterial proteins,bacterial proteins,1,<Bacterial protein>,bacterial protein,False,2,development,all_unseen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,curli,curli,1,<Curli>,curli,False,1,development,all_unseen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,human synucleinopathies,human synucleinopathies,2,<Human> | <Synucleinopathy>,human | synucleinopathy,True,2,development,mixed
+parkinson,334,10.1134/s0006297924030118,parkinson::334,inflammatory processes,inflammatory processes,1,<Inflammation>,inflammation,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,metabolites,metabolites,1,<Metabolite>,metabolite,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,microbiome,microbiome,1,<Microbiome>,microbiome,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,microorganisms,microorganisms,1,<Microorganism>,microorganism,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,molecular mechanisms,molecular mechanisms,1,<Molecular mechanism>,molecular mechanism,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,patients,patients,1,<Patient>,patient,False,1,development,all_seen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,synucleinopathies,synucleinopathies,1,<Synucleinopathy>,synucleinopathy,False,1,development,all_unseen
+parkinson,334,10.1134/s0006297924030118,parkinson::334,α-synuclein aggregation,α-synuclein aggregation,1,<α-synuclein aggregation>,α-synuclein aggregation,False,2,development,all_unseen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,ad,AD,1,<Alzheimer's disease>,alzheimer's disease,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,amyloids,amyloids,1,<Amyloid>,amyloid,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,bacterial amyloids,bacterial amyloids,1,<Bacterial amyloid>,bacterial amyloid,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,bacterial and human amyloids,bacterial and human amyloids,3,<Amyloid> | <Bacterial amyloid> | <Human>,amyloid | bacterial amyloid | human,True,4,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,communication pathway,communication pathway,1,<Pathway>,pathway,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,diseases,diseases,1,<Disease>,disease,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,disorders,disorders,1,<Disorder>,disorder,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,endogenous amyloids,endogenous amyloids,1,<Amyloid>,amyloid,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,human amyloid formation,human amyloid formation,2,<Amyloid> | <Human>,amyloid | human,True,3,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,human and bacterial amyloids,human and bacterial amyloids,3,<Amyloid> | <Bacterial amyloid> | <Human>,amyloid | bacterial amyloid | human,True,4,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,mechanism,mechanism,1,<Mechanism>,mechanism,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,neurodegenerative diseases,neurodegenerative diseases,1,<Neurodegenerative disease>,neurodegenerative disease,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,neurodegenerative disorders,neurodegenerative disorders,1,<Neurodegenerative disorder>,neurodegenerative disorder,False,2,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,parkinson's (pd) and alzheimer's diseases,Parkinson's (PD) and Alzheimer's diseases,2,<Alzheimer's disease> | <Parkinson's disease>,alzheimer's disease | parkinson's disease,True,5,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,pd,PD,1,<Parkinson's disease>,parkinson's disease,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,proteins,proteins,1,<Protein>,protein,False,1,train,all_seen
+parkinson,335,10.1016/j.bbapap.2024.141018,parkinson::335,scaffold,scaffold,1,<Scaffold>,scaffold,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,absorption,absorption,1,<Absorption>,absorption,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,ad,AD,1,<Alzheimer's disease>,alzheimer's disease,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,alpha-synuclein protein,alpha-synuclein protein,1,<α-synuclein>,α-synuclein,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,alzheimer's disease,Alzheimer's disease,1,<Alzheimer's disease>,alzheimer's disease,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,asd,ASD,1,<Autism spectrum disorder>,autism spectrum disorder,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,autism spectrum disorder,autism spectrum disorder,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,body,body,1,<Body>,body,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,cns,CNS,1,<Central nervous system>,central nervous system,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,complex carbohydrates,complex carbohydrates,1,<Complex carbohydrate>,complex carbohydrate,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,damage,damage,1,<Damage>,damage,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,diseases,diseases,1,<Disease>,disease,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,genes,genes,1,<Gene>,gene,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,gut dysbiosis,gut dysbiosis,1,<Gut dysbiosis>,gut dysbiosis,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,gut microbiome dysbiosis,gut microbiome dysbiosis,1,<Gut microbiome dysbiosis>,gut microbiome dysbiosis,False,3,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,health,health,1,<Health>,health,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,host genetics,host genetics,2,<Genetics> | <Host>,genetics | host,True,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,metabolism,metabolism,1,<Metabolism>,metabolism,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,metabolites,metabolites,1,<Metabolite>,metabolite,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,microbes,microbes,1,<Microorganism>,microorganism,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,microbiome metabolites,microbiome metabolites,1,<Microbiome metabolite>,microbiome metabolite,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,microglial function,microglial function,1,<Microglial function>,microglial function,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,misfolding,misfolding,1,<Misfolding>,misfolding,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,neurodegenerative disorders,neurodegenerative disorders,1,<Neurodegenerative disorder>,neurodegenerative disorder,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,neurological disorders,neurological disorders,1,<Neurological disorder>,neurological disorder,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,neurons,neurons,1,<Neuron>,neuron,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,nutrients,nutrients,1,<Nutrient>,nutrient,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,organ systems,organ systems,1,<Organ system>,organ system,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,p-cresyl sulfate,p-cresyl sulfate,1,<P-cresyl sulfate>,p-cresyl sulfate,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,pathogenesis,pathogenesis,1,<Pathogenesis>,pathogenesis,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,pathophysiology,pathophysiology,1,<Pathophysiology>,pathophysiology,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,pd,PD,1,<Parkinson's disease>,parkinson's disease,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,preventive and treatment modalities,preventive and treatment modalities,2,<Preventive modality> | <Treatment modality>,preventive modality | treatment modality,True,4,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,scfas,SCFAs,1,<Short-chain fatty acid>,short-chain fatty acid,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,short-chain fatty acids,short-chain fatty acids,1,<Short-chain fatty acid>,short-chain fatty acid,False,3,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,single nucleotide polymorphisms,single nucleotide polymorphisms,1,<Single nucleotide polymorphism>,single nucleotide polymorphism,False,3,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,snps,SNPs,1,<Single nucleotide polymorphism>,single nucleotide polymorphism,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,species,species,1,<Species>,species,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,synthesized,synthesized,1,<Synthesize>,synthesize,False,1,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,therapeutic modalities,therapeutic modalities,1,<Therapeutic modality>,therapeutic modality,False,2,train,all_seen
+parkinson,369,10.2174/1570159x20666221003085508,parkinson::369,vitamins,vitamins,1,<Vitamin>,vitamin,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,bacteria,bacteria,1,<Bacterium>,bacterium,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,drug metabolism,drug metabolism,1,<Drug metabolism>,drug metabolism,False,2,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,enzymes,enzymes,1,<Enzyme>,enzyme,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,gut bacteria,gut bacteria,1,<Gut bacterium>,gut bacterium,False,2,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,inhibitor,inhibitor,1,<Inhibitor>,inhibitor,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,l-dopa,L-dopa,1,<Levodopa>,levodopa,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,levodopa,levodopa,1,<Levodopa>,levodopa,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,metabolize,metabolize,1,<Metabolize>,metabolize,False,1,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,parkinson's disease,Parkinson's disease,1,<Parkinson's disease>,parkinson's disease,False,2,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,side effects,side effects,1,<Side effect>,side effect,False,2,train,all_seen
+parkinson,41,10.1016/j.cmet.2019.07.005,parkinson::41,treatment,treatment,1,<Treatment>,treatment,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,alzheimer's and parkinson's diseases,Alzheimer's and Parkinson's diseases,2,<Alzheimer's disease> | <Parkinson's disease>,alzheimer's disease | parkinson's disease,True,4,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,asd,ASD,1,<Autism spectrum disorder>,autism spectrum disorder,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,autism spectrum disorder,autism spectrum disorder,1,<Autism spectrum disorder>,autism spectrum disorder,False,3,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,bacteria,bacteria,1,<Bacterium>,bacterium,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,bbb,BBB,1,<Blood-brain barrier>,blood-brain barrier,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,blood-brain barrier,blood-brain barrier,1,<Blood-brain barrier>,blood-brain barrier,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,brain,brain,1,<Brain>,brain,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,central nervous system,central nervous system,1,<Central nervous system>,central nervous system,False,3,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,cns,CNS,1,<Central nervous system>,central nervous system,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,diseases,diseases,1,<Disease>,disease,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,effect,effect,1,<Effect>,effect,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gastroenterology,gastroenterology,1,<Gastroenterology>,gastroenterology,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut,gut,1,<Gut>,gut,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut microbiome,gut microbiome,1,<Gut microbiome>,gut microbiome,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut microbiota,gut microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut microbiota composition,gut microbiota composition,1,<Gut microbiota>,gut microbiota,False,3,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut-brain axis,gut-brain axis,1,<Gut-brain axis>,gut-brain axis,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,gut-brain interplay,gut-brain interplay,2,<Brain> | <Gut>,brain | gut,True,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,host,host,1,<Host>,host,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,imbalance,imbalance,1,<Imbalance>,imbalance,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,immune system,immune system,1,<Immune system>,immune system,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,intestinal microbiota,intestinal microbiota,1,<Gut microbiota>,gut microbiota,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,major depressive disorders,major depressive disorders,1,<Major depressive disorder>,major depressive disorder,False,3,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,mdd,MDD,1,<Major depressive disorder>,major depressive disorder,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,metabolites,metabolites,1,<Metabolite>,metabolite,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,microbiota,microbiota,1,<Microbiota>,microbiota,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,multiple sclerosis,multiple sclerosis,1,<Multiple sclerosis>,multiple sclerosis,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,neurodegeneration,neurodegeneration,1,<Neurodegeneration>,neurodegeneration,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,neuroinflammation,neuroinflammation,1,<Neuroinflammation>,neuroinflammation,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,neurological disorders,neurological disorders,1,<Neurological disorder>,neurological disorder,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,neuropsychological disorders,neuropsychological disorders,1,<Neuropsychological disorder>,neuropsychological disorder,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,neuroscience,neuroscience,1,<Neuroscience>,neuroscience,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,pathological shift,pathological shift,1,<Pathological shift>,pathological shift,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,scfas,SCFAs,1,<Short-chain fatty acid>,short-chain fatty acid,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,secretion,secretion,1,<Secretion>,secretion,False,1,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,short-chain fatty acids,short-chain fatty acids,1,<Short-chain fatty acid>,short-chain fatty acid,False,3,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,signaling molecules,signaling molecules,1,<Signaling molecule>,signaling molecule,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,therapeutic interventions,therapeutic interventions,1,<Therapeutic intervention>,therapeutic intervention,False,2,train,all_seen
+parkinson,88,10.3390/ijms221810028,parkinson::88,tissue barriers,tissue barriers,1,<Tissue barrier>,tissue barrier,False,2,train,all_seen

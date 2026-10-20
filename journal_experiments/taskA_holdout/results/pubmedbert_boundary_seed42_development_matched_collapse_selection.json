@@ -1,0 +1,80 @@
+{
+  "test_data_accessed": false,
+  "selection_metric": "mean of domain-averaged document-surface micro F1 and domain-averaged normalized type F1",
+  "nested_neural_threshold": 0.97,
+  "nonoverlap_neural_threshold": 0.81,
+  "alpha_grid": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "p_min_grid": [
+    0.5,
+    0.6,
+    0.65,
+    0.7,
+    0.75
+  ],
+  "tau_grid": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "alpha_1_interpretation": "neural-only lower-threshold rescue control",
+  "selected": {
+    "NESTED_PLUS_COLLAPSE": {
+      "branch": "NESTED_PLUS_COLLAPSE",
+      "alpha": 0.5,
+      "p_min": 0.75,
+      "tau": 0.95,
+      "p_keep": 0.97,
+      "n_occurrence_predictions": 8465,
+      "avg_micro_f1": 0.3341159989326238,
+      "avg_type_f1": 0.23312265850276612,
+      "selection_score": 0.28361932871769496,
+      "PA_micro_precision": 0.21263940520446098,
+      "PA_micro_recall": 0.7536231884057971,
+      "PA_micro_f1": 0.33169034502754424,
+      "PA_type_f1": 0.2269187986651835,
+      "MH_micro_precision": 0.22503328894806923,
+      "MH_micro_recall": 0.6671052631578948,
+      "MH_micro_f1": 0.33654165283770326,
+      "MH_type_f1": 0.23932651834034874
+    },
+    "NONOVERLAP_PLUS_COLLAPSE": {
+      "branch": "NONOVERLAP_PLUS_COLLAPSE",
+      "alpha": 0.8,
+      "p_min": 0.75,
+      "tau": 0.65,
+      "p_keep": 0.81,
+      "n_occurrence_predictions": 2982,
+      "avg_micro_f1": 0.5492015507730716,
+      "avg_type_f1": 0.4997784094703449,
+      "selection_score": 0.5244899801217082,
+      "PA_micro_precision": 0.5186972255729795,
+      "PA_micro_recall": 0.5665349143610013,
+      "PA_micro_f1": 0.5415617128463476,
+      "PA_type_f1": 0.4764649375600384,
+      "MH_micro_precision": 0.5768688293370945,
+      "MH_micro_recall": 0.5381578947368421,
+      "MH_micro_f1": 0.5568413886997957,
+      "MH_type_f1": 0.5230918813806514
+    }
+  }
+}

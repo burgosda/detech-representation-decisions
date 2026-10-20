@@ -1,0 +1,14 @@
+domain,document_key,mention,route,gold_familiarity,reference_concepts,baseline_prediction,decomposition_prediction,baseline_exact,decomposition_exact,change_outcome
+mental_health,mental_health::611,health and disease issues,open_normalized_label,all_gold_concepts_seen,disease | health,health and disease issue,disease | health,False,True,improved_to_exact_match
+mental_health,mental_health::611,probiotic applications,open_normalized_label,all_gold_concepts_seen,probiotic,probiotic application,probiotic,False,True,improved_to_exact_match
+parkinson,parkinson::151,microbiome-mediated contributions,open_normalized_label,all_gold_concepts_seen,microbiome,microbiome mediated contribution,microbiome,False,True,improved_to_exact_match
+mental_health,mental_health::461,Alzheimer disease,open_normalized_label,all_gold_concepts_seen,alzheimer s disease,alzheimer disease,disease,False,False,neither_exact_or_both_exact
+parkinson,parkinson::151,human body,open_normalized_label,all_gold_concepts_seen,body,human body,human,False,False,neither_exact_or_both_exact
+parkinson,parkinson::151,neurological health and disease,open_normalized_label,all_gold_concepts_seen,neurological disease | neurological health,neurological health and disease,disease | neurological health,False,False,neither_exact_or_both_exact
+mental_health,mental_health::103,gut microbiota metabolism,open_normalized_label,all_gold_concepts_unseen,gut microbiota metabolism,gut microbiota metabolism,gut microbiota | metabolism,True,False,regressed_from_exact_match
+mental_health,mental_health::461,fecal microbiota transplantation,open_normalized_label,all_gold_concepts_unseen,fecal microbiota transplantation,fecal microbiota transplantation,microbiota,True,False,regressed_from_exact_match
+mental_health,mental_health::461,signaling mechanism,open_normalized_label,all_gold_concepts_unseen,signaling mechanism,signaling mechanism,mechanism,True,False,regressed_from_exact_match
+parkinson,parkinson::275,gut-microbiome-brain axis,open_normalized_label,all_gold_concepts_unseen,gut microbiome brain axis,gut microbiome brain axis,brain | gut microbiome,True,False,regressed_from_exact_match
+parkinson,parkinson::275,microbiota metabolites,open_normalized_label,all_gold_concepts_unseen,microbiota metabolite,microbiota metabolite,microbiota,True,False,regressed_from_exact_match
+parkinson,parkinson::275,parasympathetic nervous system,open_normalized_label,all_gold_concepts_unseen,parasympathetic nervous system,parasympathetic nervous system,nervous system,True,False,regressed_from_exact_match
+parkinson,parkinson::275,treatment responses,open_normalized_label,all_gold_concepts_unseen,treatment response,treatment response,treatment,True,False,regressed_from_exact_match

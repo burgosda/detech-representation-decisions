@@ -1,0 +1,35 @@
+{
+  "evaluation_unit": "unique_document_mention_concept_link",
+  "original_annotation_rows": 873,
+  "authoritative_unique_links": 869,
+  "unique_mention_inputs": 790,
+  "canonical_concepts": 315,
+  "reference_definitions": 315,
+  "repairs": [
+    {
+      "source_normalized": "biophysiological mechanism",
+      "target_label": "<Biophysiogical mechanism>",
+      "target_normalized": "biophysiogical mechanism"
+    },
+    {
+      "source_normalized": "diseease",
+      "target_label": "<Disease>",
+      "target_normalized": "disease"
+    },
+    {
+      "source_normalized": "microbe",
+      "target_label": "<Microorganism>",
+      "target_normalized": "microorganism"
+    },
+    {
+      "source_normalized": "placebo-controlled double-blind design",
+      "target_label": "<Placebo-controlled double-blinded design>",
+      "target_normalized": "placebo-controlled double-blinded design"
+    },
+    {
+      "source_normalized": "psychiatric diseases",
+      "target_label": "<Psychiatric disease>",
+      "target_normalized": "psychiatric disease"
+    }
+  ]
+}
