@@ -1,0 +1,5 @@
+gold_familiarity,system,gold_links,predicted_links,TP,FP,FN,micro_F1
+training_seen,morphological_open,100,77,77,0,23,0.8700564971751412
+training_unseen,morphological_open,31,46,26,20,5,0.6753246753246753
+training_seen,decomposition,100,94,82,12,18,0.845360824742268
+training_unseen,decomposition,31,33,19,14,12,0.59375
